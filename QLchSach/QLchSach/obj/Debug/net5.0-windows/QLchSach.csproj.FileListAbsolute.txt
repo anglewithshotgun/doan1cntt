@@ -1,0 +1,146 @@
+D:\Refferences\This term\CNTT Project\Qlsach\QLchSach\QLchSach\bin\Debug\net5.0-windows\QLchSach.exe
+D:\Refferences\This term\CNTT Project\Qlsach\QLchSach\QLchSach\bin\Debug\net5.0-windows\QLchSach.deps.json
+D:\Refferences\This term\CNTT Project\Qlsach\QLchSach\QLchSach\bin\Debug\net5.0-windows\QLchSach.runtimeconfig.json
+D:\Refferences\This term\CNTT Project\Qlsach\QLchSach\QLchSach\bin\Debug\net5.0-windows\QLchSach.runtimeconfig.dev.json
+D:\Refferences\This term\CNTT Project\Qlsach\QLchSach\QLchSach\bin\Debug\net5.0-windows\QLchSach.dll
+D:\Refferences\This term\CNTT Project\Qlsach\QLchSach\QLchSach\bin\Debug\net5.0-windows\ref\QLchSach.dll
+D:\Refferences\This term\CNTT Project\Qlsach\QLchSach\QLchSach\bin\Debug\net5.0-windows\QLchSach.pdb
+D:\Refferences\This term\CNTT Project\Qlsach\QLchSach\QLchSach\bin\Debug\net5.0-windows\Microsoft.Data.SqlClient.dll
+D:\Refferences\This term\CNTT Project\Qlsach\QLchSach\QLchSach\bin\Debug\net5.0-windows\Microsoft.EntityFrameworkCore.dll
+D:\Refferences\This term\CNTT Project\Qlsach\QLchSach\QLchSach\bin\Debug\net5.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Refferences\This term\CNTT Project\Qlsach\QLchSach\QLchSach\bin\Debug\net5.0-windows\Microsoft.EntityFrameworkCore.Design.dll
+D:\Refferences\This term\CNTT Project\Qlsach\QLchSach\QLchSach\bin\Debug\net5.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Refferences\This term\CNTT Project\Qlsach\QLchSach\QLchSach\bin\Debug\net5.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Refferences\This term\CNTT Project\Qlsach\QLchSach\QLchSach\bin\Debug\net5.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Refferences\This term\CNTT Project\Qlsach\QLchSach\QLchSach\bin\Debug\net5.0-windows\Microsoft.Extensions.Caching.Memory.dll
+D:\Refferences\This term\CNTT Project\Qlsach\QLchSach\QLchSach\bin\Debug\net5.0-windows\Microsoft.Extensions.Configuration.dll
+D:\Refferences\This term\CNTT Project\Qlsach\QLchSach\QLchSach\bin\Debug\net5.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Refferences\This term\CNTT Project\Qlsach\QLchSach\QLchSach\bin\Debug\net5.0-windows\Microsoft.Extensions.Configuration.Binder.dll
+D:\Refferences\This term\CNTT Project\Qlsach\QLchSach\QLchSach\bin\Debug\net5.0-windows\Microsoft.Extensions.DependencyInjection.dll
+D:\Refferences\This term\CNTT Project\Qlsach\QLchSach\QLchSach\bin\Debug\net5.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Refferences\This term\CNTT Project\Qlsach\QLchSach\QLchSach\bin\Debug\net5.0-windows\Microsoft.Extensions.Logging.dll
+D:\Refferences\This term\CNTT Project\Qlsach\QLchSach\QLchSach\bin\Debug\net5.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Refferences\This term\CNTT Project\Qlsach\QLchSach\QLchSach\bin\Debug\net5.0-windows\Microsoft.Extensions.Logging.Configuration.dll
+D:\Refferences\This term\CNTT Project\Qlsach\QLchSach\QLchSach\bin\Debug\net5.0-windows\Microsoft.Extensions.Logging.Console.dll
+D:\Refferences\This term\CNTT Project\Qlsach\QLchSach\QLchSach\bin\Debug\net5.0-windows\Microsoft.Extensions.Options.dll
+D:\Refferences\This term\CNTT Project\Qlsach\QLchSach\QLchSach\bin\Debug\net5.0-windows\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+D:\Refferences\This term\CNTT Project\Qlsach\QLchSach\QLchSach\bin\Debug\net5.0-windows\Microsoft.Extensions.Primitives.dll
+D:\Refferences\This term\CNTT Project\Qlsach\QLchSach\QLchSach\bin\Debug\net5.0-windows\Microsoft.Identity.Client.dll
+D:\Refferences\This term\CNTT Project\Qlsach\QLchSach\QLchSach\bin\Debug\net5.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Refferences\This term\CNTT Project\Qlsach\QLchSach\QLchSach\bin\Debug\net5.0-windows\Microsoft.IdentityModel.Logging.dll
+D:\Refferences\This term\CNTT Project\Qlsach\QLchSach\QLchSach\bin\Debug\net5.0-windows\Microsoft.IdentityModel.Protocols.dll
+D:\Refferences\This term\CNTT Project\Qlsach\QLchSach\QLchSach\bin\Debug\net5.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Refferences\This term\CNTT Project\Qlsach\QLchSach\QLchSach\bin\Debug\net5.0-windows\Microsoft.IdentityModel.Tokens.dll
+D:\Refferences\This term\CNTT Project\Qlsach\QLchSach\QLchSach\bin\Debug\net5.0-windows\Newtonsoft.Json.dll
+D:\Refferences\This term\CNTT Project\Qlsach\QLchSach\QLchSach\bin\Debug\net5.0-windows\System.Data.SqlClient.dll
+D:\Refferences\This term\CNTT Project\Qlsach\QLchSach\QLchSach\bin\Debug\net5.0-windows\System.IdentityModel.Tokens.Jwt.dll
+D:\Refferences\This term\CNTT Project\Qlsach\QLchSach\QLchSach\bin\Debug\net5.0-windows\System.Runtime.Caching.dll
+D:\Refferences\This term\CNTT Project\Qlsach\QLchSach\QLchSach\bin\Debug\net5.0-windows\runtimes\win-arm64\native\sni.dll
+D:\Refferences\This term\CNTT Project\Qlsach\QLchSach\QLchSach\bin\Debug\net5.0-windows\runtimes\win-x64\native\sni.dll
+D:\Refferences\This term\CNTT Project\Qlsach\QLchSach\QLchSach\bin\Debug\net5.0-windows\runtimes\win-x86\native\sni.dll
+D:\Refferences\This term\CNTT Project\Qlsach\QLchSach\QLchSach\bin\Debug\net5.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Refferences\This term\CNTT Project\Qlsach\QLchSach\QLchSach\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Refferences\This term\CNTT Project\Qlsach\QLchSach\QLchSach\obj\Debug\net5.0-windows\QLchSach.csprojAssemblyReference.cache
+D:\Refferences\This term\CNTT Project\Qlsach\QLchSach\QLchSach\obj\Debug\net5.0-windows\QLchSach.Properties.Resources.resources
+D:\Refferences\This term\CNTT Project\Qlsach\QLchSach\QLchSach\obj\Debug\net5.0-windows\QLchSach.frmBill.resources
+D:\Refferences\This term\CNTT Project\Qlsach\QLchSach\QLchSach\obj\Debug\net5.0-windows\QLchSach.frmBook.resources
+D:\Refferences\This term\CNTT Project\Qlsach\QLchSach\QLchSach\obj\Debug\net5.0-windows\QLchSach.frmEmpoy.resources
+D:\Refferences\This term\CNTT Project\Qlsach\QLchSach\QLchSach\obj\Debug\net5.0-windows\QLchSach.frmFind.resources
+D:\Refferences\This term\CNTT Project\Qlsach\QLchSach\QLchSach\obj\Debug\net5.0-windows\QLchSach.frmImport.resources
+D:\Refferences\This term\CNTT Project\Qlsach\QLchSach\QLchSach\obj\Debug\net5.0-windows\QLchSach.frmListBill.resources
+D:\Refferences\This term\CNTT Project\Qlsach\QLchSach\QLchSach\obj\Debug\net5.0-windows\QLchSach.frmLogin.resources
+D:\Refferences\This term\CNTT Project\Qlsach\QLchSach\QLchSach\obj\Debug\net5.0-windows\QLchSach.frmMain.resources
+D:\Refferences\This term\CNTT Project\Qlsach\QLchSach\QLchSach\obj\Debug\net5.0-windows\QLchSach.frmMember.resources
+D:\Refferences\This term\CNTT Project\Qlsach\QLchSach\QLchSach\obj\Debug\net5.0-windows\QLchSach.csproj.GenerateResource.cache
+D:\Refferences\This term\CNTT Project\Qlsach\QLchSach\QLchSach\obj\Debug\net5.0-windows\QLchSach.GeneratedMSBuildEditorConfig.editorconfig
+D:\Refferences\This term\CNTT Project\Qlsach\QLchSach\QLchSach\obj\Debug\net5.0-windows\QLchSach.csproj.CoreCompileInputs.cache
+D:\Refferences\This term\CNTT Project\Qlsach\QLchSach\QLchSach\obj\Debug\net5.0-windows\QLchSach.csproj.CopyComplete
+D:\Refferences\This term\CNTT Project\Qlsach\QLchSach\QLchSach\obj\Debug\net5.0-windows\QLchSach.dll
+D:\Refferences\This term\CNTT Project\Qlsach\QLchSach\QLchSach\obj\Debug\net5.0-windows\ref\QLchSach.dll
+D:\Refferences\This term\CNTT Project\Qlsach\QLchSach\QLchSach\obj\Debug\net5.0-windows\QLchSach.pdb
+D:\Refferences\This term\CNTT Project\Qlsach\QLchSach\QLchSach\obj\Debug\net5.0-windows\QLchSach.genruntimeconfig.cache
+D:\Refferences\This term\CNTT Project\Qlsach\QLchSach\QLchSach\bin\Debug\net5.0-windows\Microsoft.EntityFrameworkCore.Relational.Design.dll
+D:\Refferences\This term\CNTT Project\Qlsach\QLchSach\QLchSach\bin\Debug\net5.0-windows\Microsoft.EntityFrameworkCore.SqlServer.Design.dll
+D:\Refferences\This term\CNTT Project\clone 1711\QLchSach\QLchSach\bin\Debug\net5.0-windows\QLchSach.exe
+D:\Refferences\This term\CNTT Project\clone 1711\QLchSach\QLchSach\bin\Debug\net5.0-windows\QLchSach.deps.json
+D:\Refferences\This term\CNTT Project\clone 1711\QLchSach\QLchSach\bin\Debug\net5.0-windows\QLchSach.runtimeconfig.json
+D:\Refferences\This term\CNTT Project\clone 1711\QLchSach\QLchSach\bin\Debug\net5.0-windows\QLchSach.runtimeconfig.dev.json
+D:\Refferences\This term\CNTT Project\clone 1711\QLchSach\QLchSach\bin\Debug\net5.0-windows\QLchSach.dll
+D:\Refferences\This term\CNTT Project\clone 1711\QLchSach\QLchSach\bin\Debug\net5.0-windows\ref\QLchSach.dll
+D:\Refferences\This term\CNTT Project\clone 1711\QLchSach\QLchSach\bin\Debug\net5.0-windows\QLchSach.pdb
+D:\Refferences\This term\CNTT Project\clone 1711\QLchSach\QLchSach\bin\Debug\net5.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Refferences\This term\CNTT Project\clone 1711\QLchSach\QLchSach\bin\Debug\net5.0-windows\Microsoft.Bcl.HashCode.dll
+D:\Refferences\This term\CNTT Project\clone 1711\QLchSach\QLchSach\bin\Debug\net5.0-windows\Microsoft.Data.SqlClient.dll
+D:\Refferences\This term\CNTT Project\clone 1711\QLchSach\QLchSach\bin\Debug\net5.0-windows\Microsoft.EntityFrameworkCore.dll
+D:\Refferences\This term\CNTT Project\clone 1711\QLchSach\QLchSach\bin\Debug\net5.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Refferences\This term\CNTT Project\clone 1711\QLchSach\QLchSach\bin\Debug\net5.0-windows\Microsoft.EntityFrameworkCore.Design.dll
+D:\Refferences\This term\CNTT Project\clone 1711\QLchSach\QLchSach\bin\Debug\net5.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Refferences\This term\CNTT Project\clone 1711\QLchSach\QLchSach\bin\Debug\net5.0-windows\Microsoft.EntityFrameworkCore.Relational.Design.dll
+D:\Refferences\This term\CNTT Project\clone 1711\QLchSach\QLchSach\bin\Debug\net5.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Refferences\This term\CNTT Project\clone 1711\QLchSach\QLchSach\bin\Debug\net5.0-windows\Microsoft.EntityFrameworkCore.SqlServer.Design.dll
+D:\Refferences\This term\CNTT Project\clone 1711\QLchSach\QLchSach\bin\Debug\net5.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Refferences\This term\CNTT Project\clone 1711\QLchSach\QLchSach\bin\Debug\net5.0-windows\Microsoft.Extensions.Caching.Memory.dll
+D:\Refferences\This term\CNTT Project\clone 1711\QLchSach\QLchSach\bin\Debug\net5.0-windows\Microsoft.Extensions.Configuration.dll
+D:\Refferences\This term\CNTT Project\clone 1711\QLchSach\QLchSach\bin\Debug\net5.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Refferences\This term\CNTT Project\clone 1711\QLchSach\QLchSach\bin\Debug\net5.0-windows\Microsoft.Extensions.Configuration.Binder.dll
+D:\Refferences\This term\CNTT Project\clone 1711\QLchSach\QLchSach\bin\Debug\net5.0-windows\Microsoft.Extensions.DependencyInjection.dll
+D:\Refferences\This term\CNTT Project\clone 1711\QLchSach\QLchSach\bin\Debug\net5.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Refferences\This term\CNTT Project\clone 1711\QLchSach\QLchSach\bin\Debug\net5.0-windows\Microsoft.Extensions.Logging.dll
+D:\Refferences\This term\CNTT Project\clone 1711\QLchSach\QLchSach\bin\Debug\net5.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Refferences\This term\CNTT Project\clone 1711\QLchSach\QLchSach\bin\Debug\net5.0-windows\Microsoft.Extensions.Logging.Configuration.dll
+D:\Refferences\This term\CNTT Project\clone 1711\QLchSach\QLchSach\bin\Debug\net5.0-windows\Microsoft.Extensions.Logging.Console.dll
+D:\Refferences\This term\CNTT Project\clone 1711\QLchSach\QLchSach\bin\Debug\net5.0-windows\Microsoft.Extensions.Options.dll
+D:\Refferences\This term\CNTT Project\clone 1711\QLchSach\QLchSach\bin\Debug\net5.0-windows\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+D:\Refferences\This term\CNTT Project\clone 1711\QLchSach\QLchSach\bin\Debug\net5.0-windows\Microsoft.Extensions.Primitives.dll
+D:\Refferences\This term\CNTT Project\clone 1711\QLchSach\QLchSach\bin\Debug\net5.0-windows\Microsoft.Identity.Client.dll
+D:\Refferences\This term\CNTT Project\clone 1711\QLchSach\QLchSach\bin\Debug\net5.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Refferences\This term\CNTT Project\clone 1711\QLchSach\QLchSach\bin\Debug\net5.0-windows\Microsoft.IdentityModel.Logging.dll
+D:\Refferences\This term\CNTT Project\clone 1711\QLchSach\QLchSach\bin\Debug\net5.0-windows\Microsoft.IdentityModel.Protocols.dll
+D:\Refferences\This term\CNTT Project\clone 1711\QLchSach\QLchSach\bin\Debug\net5.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Refferences\This term\CNTT Project\clone 1711\QLchSach\QLchSach\bin\Debug\net5.0-windows\Microsoft.IdentityModel.Tokens.dll
+D:\Refferences\This term\CNTT Project\clone 1711\QLchSach\QLchSach\bin\Debug\net5.0-windows\Newtonsoft.Json.dll
+D:\Refferences\This term\CNTT Project\clone 1711\QLchSach\QLchSach\bin\Debug\net5.0-windows\System.Data.SqlClient.dll
+D:\Refferences\This term\CNTT Project\clone 1711\QLchSach\QLchSach\bin\Debug\net5.0-windows\System.IdentityModel.Tokens.Jwt.dll
+D:\Refferences\This term\CNTT Project\clone 1711\QLchSach\QLchSach\bin\Debug\net5.0-windows\System.Runtime.Caching.dll
+D:\Refferences\This term\CNTT Project\clone 1711\QLchSach\QLchSach\bin\Debug\net5.0-windows\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\Refferences\This term\CNTT Project\clone 1711\QLchSach\QLchSach\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\Refferences\This term\CNTT Project\clone 1711\QLchSach\QLchSach\bin\Debug\net5.0-windows\runtimes\win-arm64\native\sni.dll
+D:\Refferences\This term\CNTT Project\clone 1711\QLchSach\QLchSach\bin\Debug\net5.0-windows\runtimes\win-x64\native\sni.dll
+D:\Refferences\This term\CNTT Project\clone 1711\QLchSach\QLchSach\bin\Debug\net5.0-windows\runtimes\win-x86\native\sni.dll
+D:\Refferences\This term\CNTT Project\clone 1711\QLchSach\QLchSach\bin\Debug\net5.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Refferences\This term\CNTT Project\clone 1711\QLchSach\QLchSach\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Refferences\This term\CNTT Project\clone 1711\QLchSach\QLchSach\bin\Debug\net5.0-windows\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\Refferences\This term\CNTT Project\clone 1711\QLchSach\QLchSach\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\Refferences\This term\CNTT Project\clone 1711\QLchSach\QLchSach\obj\Debug\net5.0-windows\QLchSach.csprojAssemblyReference.cache
+D:\Refferences\This term\CNTT Project\clone 1711\QLchSach\QLchSach\obj\Debug\net5.0-windows\QLchSach.Properties.Resources.resources
+D:\Refferences\This term\CNTT Project\clone 1711\QLchSach\QLchSach\obj\Debug\net5.0-windows\QLchSach.frmBill.resources
+D:\Refferences\This term\CNTT Project\clone 1711\QLchSach\QLchSach\obj\Debug\net5.0-windows\QLchSach.frmBook.resources
+D:\Refferences\This term\CNTT Project\clone 1711\QLchSach\QLchSach\obj\Debug\net5.0-windows\QLchSach.frmEmpoy.resources
+D:\Refferences\This term\CNTT Project\clone 1711\QLchSach\QLchSach\obj\Debug\net5.0-windows\QLchSach.frmFind.resources
+D:\Refferences\This term\CNTT Project\clone 1711\QLchSach\QLchSach\obj\Debug\net5.0-windows\QLchSach.frmImport.resources
+D:\Refferences\This term\CNTT Project\clone 1711\QLchSach\QLchSach\obj\Debug\net5.0-windows\QLchSach.frmListBill.resources
+D:\Refferences\This term\CNTT Project\clone 1711\QLchSach\QLchSach\obj\Debug\net5.0-windows\QLchSach.frmLogin.resources
+D:\Refferences\This term\CNTT Project\clone 1711\QLchSach\QLchSach\obj\Debug\net5.0-windows\QLchSach.frmMain.resources
+D:\Refferences\This term\CNTT Project\clone 1711\QLchSach\QLchSach\obj\Debug\net5.0-windows\QLchSach.frmMember.resources
+D:\Refferences\This term\CNTT Project\clone 1711\QLchSach\QLchSach\obj\Debug\net5.0-windows\QLchSach.csproj.GenerateResource.cache
+D:\Refferences\This term\CNTT Project\clone 1711\QLchSach\QLchSach\obj\Debug\net5.0-windows\QLchSach.GeneratedMSBuildEditorConfig.editorconfig
+D:\Refferences\This term\CNTT Project\clone 1711\QLchSach\QLchSach\obj\Debug\net5.0-windows\QLchSach.AssemblyInfoInputs.cache
+D:\Refferences\This term\CNTT Project\clone 1711\QLchSach\QLchSach\obj\Debug\net5.0-windows\QLchSach.AssemblyInfo.cs
+D:\Refferences\This term\CNTT Project\clone 1711\QLchSach\QLchSach\obj\Debug\net5.0-windows\QLchSach.csproj.CoreCompileInputs.cache
+D:\Refferences\This term\CNTT Project\clone 1711\QLchSach\QLchSach\obj\Debug\net5.0-windows\QLchSach.csproj.CopyComplete
+D:\Refferences\This term\CNTT Project\clone 1711\QLchSach\QLchSach\obj\Debug\net5.0-windows\QLchSach.dll
+D:\Refferences\This term\CNTT Project\clone 1711\QLchSach\QLchSach\obj\Debug\net5.0-windows\ref\QLchSach.dll
+D:\Refferences\This term\CNTT Project\clone 1711\QLchSach\QLchSach\obj\Debug\net5.0-windows\QLchSach.pdb
+D:\Refferences\This term\CNTT Project\clone 1711\QLchSach\QLchSach\obj\Debug\net5.0-windows\QLchSach.genruntimeconfig.cache
+D:\Refferences\This term\CNTT Project\qlsach\QLchSach\QLchSach\bin\Debug\net5.0-windows\Humanizer.dll
+D:\Refferences\This term\CNTT Project\qlsach\QLchSach\QLchSach\bin\Debug\net5.0-windows\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Refferences\This term\CNTT Project\qlsach\QLchSach\QLchSach\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Refferences\This term\CNTT Project\qlsach\QLchSach\QLchSach\bin\Debug\net5.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Refferences\This term\CNTT Project\qlsach\QLchSach\QLchSach\bin\Debug\net5.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Refferences\This term\CNTT Project\qlsach\QLchSach\QLchSach\bin\Debug\net5.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Refferences\This term\CNTT Project\qlsach\QLchSach\QLchSach\bin\Debug\net5.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Refferences\This term\CNTT Project\qlsach\QLchSach\QLchSach\bin\Debug\net5.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Refferences\This term\CNTT Project\qlsach\QLchSach\QLchSach\bin\Debug\net5.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Refferences\This term\CNTT Project\qlsach\QLchSach\QLchSach\bin\Debug\net5.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Refferences\This term\CNTT Project\qlsach\QLchSach\QLchSach\bin\Debug\net5.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Refferences\This term\CNTT Project\qlsach\QLchSach\QLchSach\bin\Debug\net5.0-windows\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
