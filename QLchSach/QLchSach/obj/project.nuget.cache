@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0axqWJb6PxaDPVm5EgC4NfQdyyCCx4Py1DJw8bhXmjooAeffCzPQfgWuky/fOZZh8CGfUxqhe551iF8BiURV8g==",
+  "dgSpecHash": "9oXOoVRECtLMisjoJy+RYIu8Bvf11FU4Kjmk4dIc65N/axkucj6LD8lsauBMWsiekthiKjSR0gTZQVYJS0tXHw==",
   "success": true,
-  "projectFilePath": "D:\\Refferences\\This term\\CNTT Project\\qlsach\\QLchSach\\QLchSach\\QLchSach.csproj",
+  "projectFilePath": "C:\\Users\\DELL\\Desktop\\nộp git hub\\QLchSach\\QLchSach\\QLchSach.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DELL\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

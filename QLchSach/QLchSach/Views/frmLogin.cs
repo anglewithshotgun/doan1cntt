@@ -24,6 +24,8 @@ namespace QLchSach
 
         private void frmLogin_Load(object sender, EventArgs e)
         {
+            //this.txtTaiKhoan.Focus();
+            this.ActiveControl = this.txtTaiKhoan;
             this.helpProvider1.SetShowHelp(this.txtTaiKhoan, true);
             this.helpProvider1.SetHelpString(this.txtTaiKhoan, "Nhập tài khoản");
             this.helpProvider1.SetShowHelp(this.txtMatKhau, true);

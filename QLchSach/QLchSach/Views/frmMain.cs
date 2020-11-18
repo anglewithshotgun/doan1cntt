@@ -21,7 +21,7 @@ namespace QLchSach
         {
             tsFile.Click += TsFile_Click;
             tsThoat.Click += TsThoat_Click;
-            tsKhachHang.Click += TsKhachHang_Click;
+            tsThanhVien.Click += TsKhachHang_Click;
             tsNhanVien.Click += TsNhanVien_Click;
             tsSach.Click += TsSach_Click;
             tsPhieuNhap.Click += TsPhieuNhap_Click;

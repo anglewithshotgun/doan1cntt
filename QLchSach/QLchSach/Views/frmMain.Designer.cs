@@ -31,7 +31,7 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.tsFile = new System.Windows.Forms.ToolStripMenuItem();
             this.tsThoat = new System.Windows.Forms.ToolStripMenuItem();
-            this.tsKhachHang = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsThanhVien = new System.Windows.Forms.ToolStripMenuItem();
             this.tsNhanVien = new System.Windows.Forms.ToolStripMenuItem();
             this.tsHoaDon = new System.Windows.Forms.ToolStripMenuItem();
             this.tsSach = new System.Windows.Forms.ToolStripMenuItem();
@@ -45,7 +45,7 @@
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.tsFile,
-            this.tsKhachHang,
+            this.tsThanhVien,
             this.tsNhanVien,
             this.tsHoaDon,
             this.tsSach,
@@ -71,11 +71,11 @@
             this.tsThoat.Size = new System.Drawing.Size(104, 22);
             this.tsThoat.Text = "&Thoát";
             // 
-            // tsKhachHang
+            // tsThanhVien
             // 
-            this.tsKhachHang.Name = "tsKhachHang";
-            this.tsKhachHang.Size = new System.Drawing.Size(82, 20);
-            this.tsKhachHang.Text = "&Khách hàng";
+            this.tsThanhVien.Name = "tsThanhVien";
+            this.tsThanhVien.Size = new System.Drawing.Size(77, 20);
+            this.tsThanhVien.Text = "&Thành viên";
             // 
             // tsNhanVien
             // 
@@ -141,7 +141,7 @@
 
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem tsFile;
-        private System.Windows.Forms.ToolStripMenuItem tsKhachHang;
+        private System.Windows.Forms.ToolStripMenuItem tsThanhVien;
         private System.Windows.Forms.ToolStripMenuItem tsNhanVien;
         private System.Windows.Forms.ToolStripMenuItem tsHoaDon;
         private System.Windows.Forms.ToolStripMenuItem tsSach;

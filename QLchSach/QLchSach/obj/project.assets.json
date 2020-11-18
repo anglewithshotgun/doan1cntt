@@ -7757,11 +7757,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Refferences\\This term\\CNTT Project\\qlsach\\QLchSach\\QLchSach\\QLchSach.csproj",
+      "projectUniqueName": "C:\\Users\\DELL\\Desktop\\nộp git hub\\QLchSach\\QLchSach\\QLchSach.csproj",
       "projectName": "QLchSach",
-      "projectPath": "D:\\Refferences\\This term\\CNTT Project\\qlsach\\QLchSach\\QLchSach\\QLchSach.csproj",
+      "projectPath": "C:\\Users\\DELL\\Desktop\\nộp git hub\\QLchSach\\QLchSach\\QLchSach.csproj",
       "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-      "outputPath": "D:\\Refferences\\This term\\CNTT Project\\qlsach\\QLchSach\\QLchSach\\obj\\",
+      "outputPath": "C:\\Users\\DELL\\Desktop\\nộp git hub\\QLchSach\\QLchSach\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
