@@ -28,9 +28,6 @@ namespace QLchSach
         }
         private void frmListBill_Load(object sender, EventArgs e)
         {
-            var context = new Dtb_NhaSachContext();
-            this.cbbManv.DataSource = context.Nhanviens.Select(n => n.MaNv.Trim()).ToList();
-            this.cbbManv.Text = null; 
             LoadDtgv();
         }
         private void LoadDtgv()
@@ -58,7 +55,7 @@ namespace QLchSach
         {
             refresh();
             this.txtMahd.Text = this.dgvListBill.CurrentRow.Cells[0].Value.ToString().Trim();
-            this.cbbManv.Text = this.dgvListBill.CurrentRow.Cells[1].Value.ToString().Trim();
+            this.txtManv.Text = this.dgvListBill.CurrentRow.Cells[1].Value.ToString().Trim();
             this.dtpNgayBan.Value = DateTime.Parse(this.dgvListBill.CurrentRow.Cells[2].Value.ToString().Trim());
             this.txtKhachHang.Text = this.dgvListBill.CurrentRow.Cells[3].Value.ToString().Trim();
             this.txtThanhTien.Text = this.dgvListBill.CurrentRow.Cells[5].Value.ToString().Trim();
@@ -68,7 +65,7 @@ namespace QLchSach
             this.txtMahd.Text = null;
             this.txtThanhTien.Text = null;
             this.txtKhachHang.Text = null;
-            this.cbbManv.Text = null;
+            this.txtManv.Text = null;
             this.dtpNgayBan.Value = DateTime.Now;
         }
 

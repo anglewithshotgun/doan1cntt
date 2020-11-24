@@ -41,7 +41,7 @@
             this.btnThem = new System.Windows.Forms.Button();
             this.btnXoa = new System.Windows.Forms.Button();
             this.dgvListBill = new System.Windows.Forms.DataGridView();
-            this.cbbManv = new System.Windows.Forms.ComboBox();
+            this.txtManv = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvListBill)).BeginInit();
             this.SuspendLayout();
             // 
@@ -168,20 +168,20 @@
             this.dgvListBill.Text = "dataGridView1";
             this.dgvListBill.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvListBill_CellClick);
             // 
-            // cbbManv
+            // txtManv
             // 
-            this.cbbManv.FormattingEnabled = true;
-            this.cbbManv.Location = new System.Drawing.Point(150, 106);
-            this.cbbManv.Name = "cbbManv";
-            this.cbbManv.Size = new System.Drawing.Size(126, 23);
-            this.cbbManv.TabIndex = 7;
+            this.txtManv.Location = new System.Drawing.Point(150, 108);
+            this.txtManv.Name = "txtManv";
+            this.txtManv.ReadOnly = true;
+            this.txtManv.Size = new System.Drawing.Size(126, 23);
+            this.txtManv.TabIndex = 7;
             // 
             // frmListBill
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(669, 450);
-            this.Controls.Add(this.cbbManv);
+            this.Controls.Add(this.txtManv);
             this.Controls.Add(this.btnXoa);
             this.Controls.Add(this.btnThem);
             this.Controls.Add(this.dtpNgayBan);
@@ -219,6 +219,6 @@
         private System.Windows.Forms.Button btnThem;
         private System.Windows.Forms.Button btnXoa;
         private System.Windows.Forms.DataGridView dgvListBill;
-        private System.Windows.Forms.ComboBox cbbManv;
+        private System.Windows.Forms.TextBox txtManv;
     }
 }
