@@ -2,6 +2,8 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
 
+#nullable disable
+
 namespace QLchSach.Models
 {
     public partial class Dtb_NhaSachContext : DbContext
@@ -15,21 +17,21 @@ namespace QLchSach.Models
         {
         }
 
-        public virtual DbSet<Chitiethoadon> Chitiethoadon { get; set; }
-        public virtual DbSet<Hoadon> Hoadon { get; set; }
-        public virtual DbSet<Nhanvien> Nhanvien { get; set; }
-        public virtual DbSet<Nxb> Nxb { get; set; }
-        public virtual DbSet<Sach> Sach { get; set; }
-        public virtual DbSet<Tacgia> Tacgia { get; set; }
-        public virtual DbSet<Taikhoan> Taikhoan { get; set; }
-        public virtual DbSet<Thanhvien> Thanhvien { get; set; }
-        public virtual DbSet<Theloai> Theloai { get; set; }
+        public virtual DbSet<Chitiethoadon> Chitiethoadons { get; set; }
+        public virtual DbSet<Hoadon> Hoadons { get; set; }
+        public virtual DbSet<Nhanvien> Nhanviens { get; set; }
+        public virtual DbSet<Nxb> Nxbs { get; set; }
+        public virtual DbSet<Sach> Saches { get; set; }
+        public virtual DbSet<Tacgium> Tacgia { get; set; }
+        public virtual DbSet<Taikhoan> Taikhoans { get; set; }
+        public virtual DbSet<Thanhvien> Thanhviens { get; set; }
+        public virtual DbSet<Theloai> Theloais { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             if (!optionsBuilder.IsConfigured)
             {
-#warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
+#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
                 optionsBuilder.UseSqlServer("Server=DESKTOP-CBH7IMS;Database=Dtb_NhaSach;Trusted_Connection=True;");
             }
         }
@@ -44,12 +46,12 @@ namespace QLchSach.Models
 
                 entity.Property(e => e.MaSach)
                     .HasMaxLength(10)
-                    .IsFixedLength();
+                    .IsFixedLength(true);
 
                 entity.Property(e => e.SoHd).HasColumnName("SoHD");
 
                 entity.HasOne(d => d.SoHdNavigation)
-                    .WithMany(p => p.Chitiethoadon)
+                    .WithMany(p => p.Chitiethoadons)
                     .HasForeignKey(d => d.SoHd)
                     .OnDelete(DeleteBehavior.ClientSetNull)
                     .HasConstraintName("FK_CHITIETHOADON_HOADON");
@@ -62,20 +64,20 @@ namespace QLchSach.Models
                 entity.ToTable("HOADON");
 
                 entity.Property(e => e.SoHd)
-                    .HasColumnName("SoHD")
-                    .ValueGeneratedNever();
+                    .ValueGeneratedNever()
+                    .HasColumnName("SoHD");
 
                 entity.Property(e => e.MaNv)
-                    .HasColumnName("MaNV")
                     .HasMaxLength(10)
-                    .IsFixedLength();
+                    .HasColumnName("MaNV")
+                    .IsFixedLength(true);
 
                 entity.Property(e => e.NgayBan).HasColumnType("date");
 
                 entity.Property(e => e.TenKh).HasMaxLength(50);
 
                 entity.HasOne(d => d.MaNvNavigation)
-                    .WithMany(p => p.Hoadon)
+                    .WithMany(p => p.Hoadons)
                     .HasForeignKey(d => d.MaNv)
                     .HasConstraintName("FK_HOADON_NHANVIEN");
             });
@@ -87,22 +89,22 @@ namespace QLchSach.Models
                 entity.ToTable("NHANVIEN");
 
                 entity.Property(e => e.MaNv)
-                    .HasColumnName("MaNV")
                     .HasMaxLength(10)
-                    .IsFixedLength();
+                    .HasColumnName("MaNV")
+                    .IsFixedLength(true);
 
                 entity.Property(e => e.DiaChi).HasMaxLength(50);
 
                 entity.Property(e => e.NgSinh).HasColumnType("date");
 
                 entity.Property(e => e.Sdt)
-                    .HasColumnName("SDT")
                     .HasMaxLength(20)
-                    .IsFixedLength();
+                    .HasColumnName("SDT")
+                    .IsFixedLength(true);
 
                 entity.Property(e => e.TenNv)
-                    .HasColumnName("TenNV")
-                    .HasMaxLength(50);
+                    .HasMaxLength(50)
+                    .HasColumnName("TenNV");
             });
 
             modelBuilder.Entity<Nxb>(entity =>
@@ -112,19 +114,19 @@ namespace QLchSach.Models
                 entity.ToTable("NXB");
 
                 entity.Property(e => e.MaNxb)
-                    .HasColumnName("MaNXB")
                     .HasMaxLength(10)
-                    .IsFixedLength();
+                    .HasColumnName("MaNXB")
+                    .IsFixedLength(true);
 
                 entity.Property(e => e.DiaChi).HasMaxLength(50);
 
                 entity.Property(e => e.DienThoai)
                     .HasMaxLength(20)
-                    .IsFixedLength();
+                    .IsFixedLength(true);
 
                 entity.Property(e => e.TenNxb)
-                    .HasColumnName("TenNXB")
-                    .HasMaxLength(50);
+                    .HasMaxLength(50)
+                    .HasColumnName("TenNXB");
             });
 
             modelBuilder.Entity<Sach>(entity =>
@@ -135,57 +137,57 @@ namespace QLchSach.Models
 
                 entity.Property(e => e.MaSach)
                     .HasMaxLength(10)
-                    .IsFixedLength();
+                    .IsFixedLength(true);
 
                 entity.Property(e => e.MaNxb)
                     .IsRequired()
-                    .HasColumnName("MaNXB")
                     .HasMaxLength(10)
-                    .IsFixedLength();
+                    .HasColumnName("MaNXB")
+                    .IsFixedLength(true);
 
                 entity.Property(e => e.MaTg)
                     .IsRequired()
-                    .HasColumnName("MaTG")
                     .HasMaxLength(10)
-                    .IsFixedLength();
+                    .HasColumnName("MaTG")
+                    .IsFixedLength(true);
 
                 entity.Property(e => e.MaTl)
                     .IsRequired()
-                    .HasColumnName("MaTL")
                     .HasMaxLength(10)
-                    .IsFixedLength();
+                    .HasColumnName("MaTL")
+                    .IsFixedLength(true);
 
                 entity.Property(e => e.TenSach)
                     .IsRequired()
                     .HasMaxLength(50);
 
                 entity.HasOne(d => d.MaNxbNavigation)
-                    .WithMany(p => p.Sach)
+                    .WithMany(p => p.Saches)
                     .HasForeignKey(d => d.MaNxb)
                     .OnDelete(DeleteBehavior.ClientSetNull)
                     .HasConstraintName("FK_SACH_NXB");
 
                 entity.HasOne(d => d.MaTgNavigation)
-                    .WithMany(p => p.Sach)
+                    .WithMany(p => p.Saches)
                     .HasForeignKey(d => d.MaTg)
                     .OnDelete(DeleteBehavior.ClientSetNull)
                     .HasConstraintName("FK_SACH_TACGIA");
             });
 
-            modelBuilder.Entity<Tacgia>(entity =>
+            modelBuilder.Entity<Tacgium>(entity =>
             {
                 entity.HasKey(e => e.MaTg);
 
                 entity.ToTable("TACGIA");
 
                 entity.Property(e => e.MaTg)
-                    .HasColumnName("MaTG")
                     .HasMaxLength(10)
-                    .IsFixedLength();
+                    .HasColumnName("MaTG")
+                    .IsFixedLength(true);
 
                 entity.Property(e => e.TenTg)
-                    .HasColumnName("TenTG")
-                    .HasMaxLength(50);
+                    .HasMaxLength(50)
+                    .HasColumnName("TenTG");
             });
 
             modelBuilder.Entity<Taikhoan>(entity =>
@@ -195,13 +197,13 @@ namespace QLchSach.Models
                 entity.ToTable("TAIKHOAN");
 
                 entity.Property(e => e.TaiKhoan1)
-                    .HasColumnName("TaiKhoan")
                     .HasMaxLength(10)
-                    .IsFixedLength();
+                    .HasColumnName("TaiKhoan")
+                    .IsFixedLength(true);
 
                 entity.Property(e => e.MatKhau)
                     .HasMaxLength(20)
-                    .IsFixedLength();
+                    .IsFixedLength(true);
 
                 entity.HasOne(d => d.TaiKhoan1Navigation)
                     .WithOne(p => p.Taikhoan)
@@ -222,12 +224,12 @@ namespace QLchSach.Models
                     .IsRequired()
                     .HasMaxLength(50);
 
-                entity.Property(e => e.NgaySinh).HasColumnType("datetime");
+                entity.Property(e => e.NgaySinh).HasColumnType("date");
 
                 entity.Property(e => e.Sdt)
                     .IsRequired()
-                    .HasMaxLength(10)
-                    .IsFixedLength();
+                    .HasMaxLength(50)
+                    .IsFixedLength(true);
 
                 entity.Property(e => e.TenTv)
                     .IsRequired()
@@ -241,13 +243,13 @@ namespace QLchSach.Models
                 entity.ToTable("THELOAI");
 
                 entity.Property(e => e.MaTl)
-                    .HasColumnName("MaTL")
                     .HasMaxLength(30)
-                    .IsFixedLength();
+                    .HasColumnName("MaTL")
+                    .IsFixedLength(true);
 
                 entity.Property(e => e.TenTl)
-                    .HasColumnName("TenTL")
-                    .HasMaxLength(50);
+                    .HasMaxLength(50)
+                    .HasColumnName("TenTL");
             });
 
             OnModelCreatingPartial(modelBuilder);

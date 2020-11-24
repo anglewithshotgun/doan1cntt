@@ -28,15 +28,15 @@ namespace QLchSach
         }
         private void frmListBill_Load(object sender, EventArgs e)
         {
-            
+            var context = new Dtb_NhaSachContext();
+            this.cbbManv.DataSource = context.Nhanviens.Select(n => n.MaNv.Trim()).ToList();
+            this.cbbManv.Text = null; 
             LoadDtgv();
         }
         private void LoadDtgv()
         {
-            //var hd = con.Hoadon.AsNoTracking().ToList();
-            //dgvListBill.DataSource = hd;
             var context = new Dtb_NhaSachContext();
-            var showData = context.Hoadon
+            var showData = context.Hoadons
                             .Where(h => h.SoHd == h.SoHd)
                             .Select(h => new
                             {
@@ -52,7 +52,41 @@ namespace QLchSach
             this.dgvListBill.Columns["TenKh"].HeaderText = "Tên khách hàng";
             this.dgvListBill.Columns["MaTv"].HeaderText = "Mã thành viên";  
             this.dgvListBill.Columns["ThanhTien"].HeaderText = "Thành tiền";
+        }
 
+        private void dgvListBill_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            refresh();
+            this.txtMahd.Text = this.dgvListBill.CurrentRow.Cells[0].Value.ToString().Trim();
+            this.cbbManv.Text = this.dgvListBill.CurrentRow.Cells[1].Value.ToString().Trim();
+            this.dtpNgayBan.Value = DateTime.Parse(this.dgvListBill.CurrentRow.Cells[2].Value.ToString().Trim());
+            this.txtKhachHang.Text = this.dgvListBill.CurrentRow.Cells[3].Value.ToString().Trim();
+            this.txtThanhTien.Text = this.dgvListBill.CurrentRow.Cells[5].Value.ToString().Trim();
+        }
+        public void refresh()
+        {
+            this.txtMahd.Text = null;
+            this.txtThanhTien.Text = null;
+            this.txtKhachHang.Text = null;
+            this.cbbManv.Text = null;
+            this.dtpNgayBan.Value = DateTime.Now;
+        }
+
+        private void btnXoa_Click(object sender, EventArgs e)
+        {
+            DialogResult xoa = MessageBox.Show("Đồng ý xóa?", "Cảnh báo", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+            if (xoa == DialogResult.Yes)
+            {
+                var context = new Dtb_NhaSachContext();
+                var delete = new Hoadon()
+                {
+                    MaTv = int.Parse(this.dgvListBill.CurrentRow.Cells[0].Value.ToString().Trim()),
+                };
+                context.Remove<Hoadon>(delete);
+                context.SaveChanges();
+                refresh();
+                LoadDtgv();
+            }
         }
     }
 }

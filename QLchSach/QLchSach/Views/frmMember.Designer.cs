@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.txtMtv = new System.Windows.Forms.TextBox();
@@ -45,7 +46,9 @@
             this.btnSua = new System.Windows.Forms.Button();
             this.btnXoa = new System.Windows.Forms.Button();
             this.dtpNgaySinh = new System.Windows.Forms.DateTimePicker();
+            this.errThanhvien = new System.Windows.Forms.ErrorProvider(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.dgvMember)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errThanhvien)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -184,6 +187,7 @@
             this.btnSua.TabIndex = 4;
             this.btnSua.Text = "Sửa";
             this.btnSua.UseVisualStyleBackColor = true;
+            this.btnSua.Click += new System.EventHandler(this.btnSua_Click);
             // 
             // btnXoa
             // 
@@ -197,10 +201,15 @@
             // 
             // dtpNgaySinh
             // 
+            this.dtpNgaySinh.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dtpNgaySinh.Location = new System.Drawing.Point(173, 157);
             this.dtpNgaySinh.Name = "dtpNgaySinh";
-            this.dtpNgaySinh.Size = new System.Drawing.Size(193, 23);
+            this.dtpNgaySinh.Size = new System.Drawing.Size(137, 23);
             this.dtpNgaySinh.TabIndex = 5;
+            // 
+            // errThanhvien
+            // 
+            this.errThanhvien.ContainerControl = this;
             // 
             // frmMember
             // 
@@ -228,6 +237,7 @@
             this.Text = "Member";
             this.Load += new System.EventHandler(this.frmMember_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvMember)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errThanhvien)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -252,5 +262,6 @@
         private System.Windows.Forms.Button btnSua;
         private System.Windows.Forms.Button btnXoa;
         private System.Windows.Forms.DateTimePicker dtpNgaySinh;
+        private System.Windows.Forms.ErrorProvider errThanhvien;
     }
 }

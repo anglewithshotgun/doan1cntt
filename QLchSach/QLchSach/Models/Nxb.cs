@@ -1,13 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
 
+#nullable disable
+
 namespace QLchSach.Models
 {
     public partial class Nxb
     {
         public Nxb()
         {
-            Sach = new HashSet<Sach>();
+            Saches = new HashSet<Sach>();
         }
 
         public string MaNxb { get; set; }
@@ -15,6 +17,6 @@ namespace QLchSach.Models
         public string DiaChi { get; set; }
         public string DienThoai { get; set; }
 
-        public virtual ICollection<Sach> Sach { get; set; }
+        public virtual ICollection<Sach> Saches { get; set; }
     }
 }

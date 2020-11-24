@@ -1,13 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
 
+#nullable disable
+
 namespace QLchSach.Models
 {
     public partial class Nhanvien
     {
         public Nhanvien()
         {
-            Hoadon = new HashSet<Hoadon>();
+            Hoadons = new HashSet<Hoadon>();
         }
 
         public string MaNv { get; set; }
@@ -18,6 +20,6 @@ namespace QLchSach.Models
         public double? Luong { get; set; }
 
         public virtual Taikhoan Taikhoan { get; set; }
-        public virtual ICollection<Hoadon> Hoadon { get; set; }
+        public virtual ICollection<Hoadon> Hoadons { get; set; }
     }
 }

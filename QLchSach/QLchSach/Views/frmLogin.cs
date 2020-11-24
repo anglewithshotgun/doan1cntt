@@ -15,13 +15,11 @@ using System.Windows.Forms;
 namespace QLchSach
 {
     public partial class frmLogin : Form
-    {
-        
+    {       
         public frmLogin()
         {
             InitializeComponent();
         }
-
         private void frmLogin_Load(object sender, EventArgs e)
         {
             //this.txtTaiKhoan.Focus();
@@ -31,7 +29,6 @@ namespace QLchSach
             this.helpProvider1.SetShowHelp(this.txtMatKhau, true);
             this.helpProvider1.SetHelpString(this.txtMatKhau, "Nhập mật khẩu");
         }
-
         private void btnDangNhap_Click(object sender, EventArgs e)
         {
             if (errorP() == 1)
@@ -45,7 +42,7 @@ namespace QLchSach
             var context = new Dtb_NhaSachContext();
             var taikhoan = new SqlParameter("@p0", this.txtTaiKhoan.Text);
             var matkhau = new SqlParameter("@p1", this.txtMatKhau.Text);
-            var dangNhap = context.Taikhoan.FromSqlRaw("dangnhap @p0,@p1", taikhoan, matkhau).ToList();
+            var dangNhap = context.Taikhoans.FromSqlRaw("dangnhap @p0,@p1", taikhoan, matkhau).ToList();
             if (dangNhap.Count == 1)
             {
                 this.Hide();

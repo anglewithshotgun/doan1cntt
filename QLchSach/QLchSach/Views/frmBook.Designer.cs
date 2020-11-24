@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -49,7 +50,9 @@
             this.dgvBook = new System.Windows.Forms.DataGridView();
             this.btnXoa = new System.Windows.Forms.Button();
             this.cbbMs = new System.Windows.Forms.ComboBox();
+            this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.dgvBook)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -106,25 +109,6 @@
             // cbbnxb
             // 
             this.cbbnxb.FormattingEnabled = true;
-            this.cbbnxb.Items.AddRange(new object[] {
-            "Nhà Xuất Bản Cengage",
-            "Nhà Xuất Bản Chính Trị Quốc Gia Sự Thật",
-            "Nhà Xuất Bản Đại Học Quốc Gia Hà Nội",
-            "Nhà Xuất Bản Dân Trí",
-            "Nhà Xuất Bản Giáo Dục Việt Nam",
-            "Nhà Xuất Bản Hồng Đức",
-            "Nhà Xuất Bản Hà Nội",
-            "Nhà Xuất Bản Hội Nhà Văn",
-            "Nhà Xuất Bản Kim Đồng",
-            "Nhà Xuất Bản Khoa Học Xã Hội",
-            "Nhà Xuất Bản Kinh Tế HCM",
-            "Nhà Xuất Bản Lao động",
-            "Nhà Xuất Bản Phụ Nữ",
-            "Nhà Xuất Bản Trẻ",
-            "Nhà Xuất Bản Thế Giới",
-            "Nhà Xuất Bản Tổng Hợp TP.HCM",
-            "Nhà Xuất Bản Thanh Niên",
-            "Nhà Xuất Bản Tri Thức"});
             this.cbbnxb.Location = new System.Drawing.Point(183, 180);
             this.cbbnxb.Name = "cbbnxb";
             this.cbbnxb.Size = new System.Drawing.Size(230, 23);
@@ -133,21 +117,6 @@
             // cbbMtl
             // 
             this.cbbMtl.FormattingEnabled = true;
-            this.cbbMtl.Items.AddRange(new object[] {
-            "Chính trị",
-            "Hồi ký",
-            "Kinh tế",
-            "Nghệ thuật - Giải trí",
-            "Phát triển trí tuệ",
-            "Sách giáo khoa",
-            "Sách ngoại ngữ",
-            "Từ điển",
-            "Tin học",
-            "Tâm lý - Kỹ năng sống",
-            "Thiếu Nhi",
-            "Truyện tranh",
-            "Tiểu thuyết",
-            "Văn học"});
             this.cbbMtl.Location = new System.Drawing.Point(183, 137);
             this.cbbMtl.Name = "cbbMtl";
             this.cbbMtl.Size = new System.Drawing.Size(230, 23);
@@ -163,43 +132,6 @@
             // cbbMtg
             // 
             this.cbbMtg.FormattingEnabled = true;
-            this.cbbMtg.Items.AddRange(new object[] {
-            "Alain de Botton",
-            "Barbara Coloroso",
-            "Bộ Giáo dục và Đào tạo",
-            "Bích Hằng",
-            "Bodo Schafer",
-            "Chuyện",
-            "Carl Gustav Jung",
-            "Eriko Sato",
-            "GS. Hoàng Phê",
-            "GS Makoto Shichida",
-            "Haruki Murakami",
-            "Johan Cruyff",
-            "Jamey Stegmaier",
-            "Kito Aya",
-            "Lý Dịch Phong",
-            "Lê Huy Khoa",
-            "Li Ya Bin",
-            "Michelle Obama",
-            "Markus Rach",
-            "Michael Schulman",
-            "Nguyễn Đức Dũng",
-            "NGregory Mankiw",
-            "Nguyên Thảo",
-            "Nia Maerani",
-            "Nguyễn Khắc Phi",
-            "Niccolo Machiavelli",
-            "Nikola Tesla",
-            "Nguyễn Thu Hương",
-            "Patricia Campbell",
-            "Paul Kalanithi",
-            "Quốc Hội",
-            "Sơn Tùng M-TP",
-            "TS Sally Ward",
-            "Trương Văn Giới",
-            "The Windy",
-            "Viện Ngôn Ngữ Hackers"});
             this.cbbMtg.Location = new System.Drawing.Point(630, 76);
             this.cbbMtg.Name = "cbbMtg";
             this.cbbMtg.Size = new System.Drawing.Size(214, 23);
@@ -313,51 +245,14 @@
             // cbbMs
             // 
             this.cbbMs.FormattingEnabled = true;
-            this.cbbMs.Items.AddRange(new object[] {
-            "1987R17   ",
-            "301CDTTH33",
-            "BACNP22   ",
-            "BCCM02    ",
-            "BIL35     ",
-            "BLTTHS06  ",
-            "BMOCBBN23 ",
-            "CCHN21    ",
-            "CDKLCN05  ",
-            "CDTDTC13  ",
-            "CLDR25    ",
-            "CLGVCD14  ",
-            "CN29      ",
-            "CNBCT19   ",
-            "CTGM16    ",
-            "DL30      ",
-            "HIR31     ",
-            "HPVNQCTK10",
-            "iKVTBTC20 ",
-            "KHTHTK01  ",
-            "KTHVM11   ",
-            "KTTH4.012 ",
-            "MLNM04    ",
-            "MSNHKN18  ",
-            "NPTHHD34  ",
-            "NPTNCB32  ",
-            "NV926     ",
-            "QVTCT09   ",
-            "SAUCTH08  ",
-            "SH27      ",
-            "TDCXCB24  ",
-            "TDHV39    ",
-            "TDOA36    ",
-            "TDTL38    ",
-            "TDTT07    ",
-            "TDTV37    ",
-            "TĐV40     ",
-            "TH28      ",
-            "TNGKNVCB03",
-            "TTM15     "});
             this.cbbMs.Location = new System.Drawing.Point(183, 59);
             this.cbbMs.Name = "cbbMs";
             this.cbbMs.Size = new System.Drawing.Size(230, 23);
             this.cbbMs.TabIndex = 2;
+            // 
+            // errorProvider1
+            // 
+            this.errorProvider1.ContainerControl = this;
             // 
             // frmBook
             // 
@@ -389,6 +284,7 @@
             this.Text = "Books";
             this.Load += new System.EventHandler(this.frmBook_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvBook)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -417,5 +313,6 @@
         private System.Windows.Forms.DataGridView dgvBook;
         private System.Windows.Forms.Button btnXoa;
         private System.Windows.Forms.ComboBox cbbMs;
+        private System.Windows.Forms.ErrorProvider errorProvider1;
     }
 }

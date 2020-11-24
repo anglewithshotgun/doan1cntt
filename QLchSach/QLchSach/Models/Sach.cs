@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 
+#nullable disable
+
 namespace QLchSach.Models
 {
     public partial class Sach
@@ -15,6 +17,6 @@ namespace QLchSach.Models
         public int GiaBan { get; set; }
 
         public virtual Nxb MaNxbNavigation { get; set; }
-        public virtual Tacgia MaTgNavigation { get; set; }
+        public virtual Tacgium MaTgNavigation { get; set; }
     }
 }
