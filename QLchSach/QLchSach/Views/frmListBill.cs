@@ -37,7 +37,7 @@ namespace QLchSach
                             .Where(h => h.SoHd == h.SoHd)
                             .Select(h => new
                             {
-                                h.SoHd, h.MaNv, h.NgayBan,h.TenKh,h.MaTv,h.ThanhTien
+                                h.SoHd, h.MaNv, h.NgayBan,h.TenKh,h.MaTv,h.TongTien
                             })
                             .ToList();          
             this.dgvListBill.DataSource = showData;

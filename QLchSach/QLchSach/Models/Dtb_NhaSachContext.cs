@@ -72,7 +72,7 @@ namespace QLchSach.Models
                     .HasColumnName("MaNV")
                     .IsFixedLength(true);
 
-                entity.Property(e => e.NgayBan).HasColumnType("date");
+                entity.Property(e => e.NgayBan).HasColumnType("datetime");
 
                 entity.Property(e => e.TenKh).HasMaxLength(50);
 

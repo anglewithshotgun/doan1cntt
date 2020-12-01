@@ -17,7 +17,7 @@ namespace QLchSach.Models
         public DateTime? NgayBan { get; set; }
         public string TenKh { get; set; }
         public int? MaTv { get; set; }
-        public double? ThanhTien { get; set; }
+        public double? TongTien { get; set; }
 
         public virtual Nhanvien MaNvNavigation { get; set; }
         public virtual ICollection<Chitiethoadon> Chitiethoadons { get; set; }

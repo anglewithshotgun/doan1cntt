@@ -27,6 +27,13 @@ namespace QLchSach
             tsPhieuNhap.Click += TsPhieuNhap_Click;
             tsTroGiup.Click += TsTroGiup_Click;
             tsHoaDon.Click += TsHoaDon_Click;
+            tsThemHoaDon.Click += TsThemHoaDon_Click;
+        }
+
+        private void TsThemHoaDon_Click(object sender, EventArgs e)
+        {
+            frmBill formBill = new frmBill();
+            formBill.ShowDialog();
         }
 
         private void TsHoaDon_Click(object sender, EventArgs e)
@@ -41,8 +48,8 @@ namespace QLchSach
             //{
             //    this.formListBill.Select();
             //}
-            frmListBill formBill = new frmListBill();
-            formBill.ShowDialog();
+            frmListBill formLBill = new frmListBill();
+            formLBill.ShowDialog();
         }
 
         private void TsTroGiup_Click(object sender, EventArgs e)

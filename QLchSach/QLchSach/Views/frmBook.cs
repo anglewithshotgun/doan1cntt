@@ -82,6 +82,7 @@ namespace QLchSach
                             }).OrderBy(s => s.Stt).ToList();
             this.dgvBook.DataSource = null;
             this.dgvBook.DataSource = book;
+            
             #endregion
             customDgv();
         }

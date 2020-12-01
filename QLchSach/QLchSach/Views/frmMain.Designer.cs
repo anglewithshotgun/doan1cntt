@@ -38,6 +38,7 @@
             this.tsPhieuNhap = new System.Windows.Forms.ToolStripMenuItem();
             this.tsTroGiup = new System.Windows.Forms.ToolStripMenuItem();
             this.tabControl1 = new System.Windows.Forms.TabControl();
+            this.tsThemHoaDon = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -50,6 +51,7 @@
             this.tsHoaDon,
             this.tsSach,
             this.tsPhieuNhap,
+            this.tsThemHoaDon,
             this.tsTroGiup});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
@@ -117,6 +119,12 @@
             this.tabControl1.TabIndex = 1;
             this.tabControl1.SelectedIndexChanged += new System.EventHandler(this.tabControl1_SelectedIndexChanged);
             // 
+            // tsThemHoaDon
+            // 
+            this.tsThemHoaDon.Name = "tsThemHoaDon";
+            this.tsThemHoaDon.Size = new System.Drawing.Size(96, 20);
+            this.tsThemHoaDon.Text = "&Thêm hóa đơn";
+            // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -149,5 +157,6 @@
         private System.Windows.Forms.ToolStripMenuItem tsTroGiup;
         private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.ToolStripMenuItem tsThoat;
+        private System.Windows.Forms.ToolStripMenuItem tsThemHoaDon;
     }
 }
