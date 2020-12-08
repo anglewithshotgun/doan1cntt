@@ -141,5 +141,10 @@ namespace QLchSach
             //    (this.tabControl1.SelectedTab.Tag as Form).Select();
             //}
         }
+
+        private void frmMain_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

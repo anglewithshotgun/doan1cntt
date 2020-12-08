@@ -110,6 +110,7 @@
             this.btnTimKiemCthd.TabIndex = 2;
             this.btnTimKiemCthd.Text = "Tìm kiếm";
             this.btnTimKiemCthd.UseVisualStyleBackColor = true;
+            this.btnTimKiemCthd.Click += new System.EventHandler(this.btnTimKiemCthd_Click);
             // 
             // cbbTimKiemCthd
             // 
@@ -465,6 +466,7 @@
             this.btnXoa.TabIndex = 1;
             this.btnXoa.Text = "Xóa hóa đơn";
             this.btnXoa.UseVisualStyleBackColor = true;
+            this.btnXoa.Click += new System.EventHandler(this.btnXoa_Click);
             // 
             // btnThemHoaDon
             // 

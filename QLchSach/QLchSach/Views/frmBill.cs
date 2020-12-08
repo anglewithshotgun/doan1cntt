@@ -6,7 +6,6 @@ using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
 using QLchSach.Models;
-using System.Data;
 using Microsoft.EntityFrameworkCore;
 using System.Linq;
 using Microsoft.EntityFrameworkCore.ChangeTracking.Internal;
@@ -22,6 +21,8 @@ namespace QLchSach
 
         private void btnThemHoaDon_Click(object sender, EventArgs e)
         {
+            refreshGroupB1();
+            refreshGroupB2();
             this.btnHuy.Enabled = true;
             this.btnLuu.Enabled = true;
             this.btnThemSach.Enabled = true;
@@ -29,11 +30,14 @@ namespace QLchSach
             this.groupBox1.Enabled = true;
             this.groupBox2.Enabled = true;
             this.panel1.Enabled = false;
-            this.btnThemHoaDon.Enabled = false;
-            
+            this.btnThemHoaDon.Enabled = false;          
         }
 
         private void frmBill_Load(object sender, EventArgs e)
+        {
+            loadcbb();
+        }
+        public void loadcbb()
         {
             var context = new Dtb_NhaSachContext();
             this.cbbTenSach.DataSource = context.Saches.Select(s => s.TenSach.Trim()).ToList();
@@ -43,7 +47,6 @@ namespace QLchSach
             this.cbbTenNv.DataSource = context.Nhanviens.Select(s => s.TenNv.Trim()).ToList();
             this.cbbTenNv.Text = null;
         }
-
         private void btnThemSach_Click(object sender, EventArgs e)
         {
             trungSach();
@@ -189,8 +192,7 @@ namespace QLchSach
                 }
                 addRow();
             }
-            else addRow();
-            
+            else addRow();           
         }
 
         private void btnLuu_Click(object sender, EventArgs e)
@@ -207,10 +209,8 @@ namespace QLchSach
             }
             else
             {
-                MessageBox.Show("Chọn sách vào hóa đơn");
-            }
-            
-
+                MessageBox.Show("Thêm sách vào hóa đơn");
+            }           
         }
         public void addTblHD()
         {
@@ -305,6 +305,78 @@ namespace QLchSach
                 refresh.GiaBan = gia;
                 context.Saches.Update(refresh);
                 context.SaveChanges();
+            }
+        }
+
+        private void btnXoa_Click(object sender, EventArgs e)
+        {           
+            delCthd();
+            delHd();
+            loadcbb();
+            refreshGroupB1();
+            refreshGroupB2();
+            this.dgv1.Rows.Clear();
+            this.btnXoa.Enabled = false;
+            MessageBox.Show("Đã xóa");
+        }
+        public void delHd()
+        {
+            var context = new Dtb_NhaSachContext();
+            var hd = new Hoadon()
+            {
+                SoHd = int.Parse(this.txtMahd.Text.Trim()),
+            };
+            context.Remove<Hoadon>(hd);
+            context.SaveChanges();
+        }
+        public void delCthd()
+        {
+            var context = new Dtb_NhaSachContext();
+            var list = context.Chitiethoadons.Where(s => s.SoHd == int.Parse(this.txtMahd.Text.Trim())).ToList();
+            foreach (var item in list)
+            {
+                context.Remove<Chitiethoadon>(item);
+                context.SaveChanges();
+            }
+            
+        }
+        private void btnTimKiemCthd_Click(object sender, EventArgs e)
+        {          
+            loadThongTinChung();
+            loadTtBanHang();
+            this.btnXoa.Enabled = true;
+        }
+        public void loadThongTinChung()
+        {
+            var context = new Dtb_NhaSachContext();
+
+            var hd = context.Hoadons.Where(s => s.SoHd == int.Parse(this.cbbTimKiemCthd.Text.Trim())).FirstOrDefault();
+            this.txtMahd.Text = this.cbbTimKiemCthd.Text.Trim();
+            this.dateTimePicker1.Value = DateTime.Parse(hd.NgayBan.ToString().Trim());
+            this.txtTenKh.Text = hd.TenKh.Trim();
+            this.cbbTenNv.Text = context.Nhanviens.Where(s => s.MaNv.Trim() == hd.MaNv.Trim())
+                                    .Select(s => s.TenNv).FirstOrDefault().ToString().Trim();
+        }
+        public void loadTtBanHang()
+        {
+            var context = new Dtb_NhaSachContext();
+
+            var cthd = context.Chitiethoadons.Where(s => s.SoHd == int.Parse(this.cbbTimKiemCthd.Text.Trim()))
+                                    .OrderBy(s=>s.MaSach).ToList();
+            int stt = 1;
+            foreach (var item in cthd)
+            {
+                string tenSach = context.Saches.Where(s => s.MaSach.Trim() == item.MaSach.Trim())
+                            .Select(s=>s.TenSach).FirstOrDefault().ToString();
+                string soLuong = item.SoLuongBan.ToString().Trim();
+                string donGia = item.DonGia.ToString().Trim();
+                string giamGia = item.GiamGia.ToString().Trim();
+                string thanhTien = item.ThanhTien.ToString().Trim();
+                string giaSauGiam = item.GiaSauGiam.ToString().Trim();
+
+                string[] row = new string[] { stt.ToString().Trim(), tenSach, soLuong, donGia, giamGia, thanhTien, giaSauGiam };
+                dgv1.Rows.Add(row);
+                stt++;
             }
         }
     }

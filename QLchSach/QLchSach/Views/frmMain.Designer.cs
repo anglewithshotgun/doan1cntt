@@ -36,9 +36,9 @@
             this.tsHoaDon = new System.Windows.Forms.ToolStripMenuItem();
             this.tsSach = new System.Windows.Forms.ToolStripMenuItem();
             this.tsPhieuNhap = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsThemHoaDon = new System.Windows.Forms.ToolStripMenuItem();
             this.tsTroGiup = new System.Windows.Forms.ToolStripMenuItem();
             this.tabControl1 = new System.Windows.Forms.TabControl();
-            this.tsThemHoaDon = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -103,6 +103,12 @@
             this.tsPhieuNhap.Size = new System.Drawing.Size(79, 20);
             this.tsPhieuNhap.Text = "&Phiếu nhập";
             // 
+            // tsThemHoaDon
+            // 
+            this.tsThemHoaDon.Name = "tsThemHoaDon";
+            this.tsThemHoaDon.Size = new System.Drawing.Size(96, 20);
+            this.tsThemHoaDon.Text = "&Thêm hóa đơn";
+            // 
             // tsTroGiup
             // 
             this.tsTroGiup.Name = "tsTroGiup";
@@ -119,12 +125,6 @@
             this.tabControl1.TabIndex = 1;
             this.tabControl1.SelectedIndexChanged += new System.EventHandler(this.tabControl1_SelectedIndexChanged);
             // 
-            // tsThemHoaDon
-            // 
-            this.tsThemHoaDon.Name = "tsThemHoaDon";
-            this.tsThemHoaDon.Size = new System.Drawing.Size(96, 20);
-            this.tsThemHoaDon.Text = "&Thêm hóa đơn";
-            // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -136,6 +136,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "frmMain";
             this.Text = "Management Book Store";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.frmMain_FormClosed);
             this.Load += new System.EventHandler(this.frmMain_Load);
             this.MdiChildActivate += new System.EventHandler(this.frmMain_MdiChildActivate);
             this.menuStrip1.ResumeLayout(false);
