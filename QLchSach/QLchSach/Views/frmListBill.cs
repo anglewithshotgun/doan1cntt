@@ -68,22 +68,5 @@ namespace QLchSach
             this.txtManv.Text = null;
             this.dtpNgayBan.Value = DateTime.Now;
         }
-
-        private void btnXoa_Click(object sender, EventArgs e)
-        {
-            DialogResult xoa = MessageBox.Show("Đồng ý xóa?", "Cảnh báo", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
-            if (xoa == DialogResult.Yes)
-            {
-                var context = new Dtb_NhaSachContext();
-                var delete = new Hoadon()
-                {
-                    MaTv = int.Parse(this.dgvListBill.CurrentRow.Cells[0].Value.ToString().Trim()),
-                };
-                context.Remove<Hoadon>(delete);
-                context.SaveChanges();
-                refresh();
-                LoadDtgv();
-            }
-        }
     }
 }

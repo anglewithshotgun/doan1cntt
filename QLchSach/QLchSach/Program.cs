@@ -17,7 +17,7 @@ namespace QLchSach
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmBill());
+            Application.Run(new frmLogin());
         }
     }
 }

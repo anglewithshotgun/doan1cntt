@@ -35,10 +35,7 @@
             this.tsNhanVien = new System.Windows.Forms.ToolStripMenuItem();
             this.tsHoaDon = new System.Windows.Forms.ToolStripMenuItem();
             this.tsSach = new System.Windows.Forms.ToolStripMenuItem();
-            this.tsPhieuNhap = new System.Windows.Forms.ToolStripMenuItem();
             this.tsThemHoaDon = new System.Windows.Forms.ToolStripMenuItem();
-            this.tsTroGiup = new System.Windows.Forms.ToolStripMenuItem();
-            this.tabControl1 = new System.Windows.Forms.TabControl();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -50,9 +47,7 @@
             this.tsNhanVien,
             this.tsHoaDon,
             this.tsSach,
-            this.tsPhieuNhap,
-            this.tsThemHoaDon,
-            this.tsTroGiup});
+            this.tsThemHoaDon});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(800, 24);
@@ -97,40 +92,17 @@
             this.tsSach.Size = new System.Drawing.Size(44, 20);
             this.tsSach.Text = "&Sách";
             // 
-            // tsPhieuNhap
-            // 
-            this.tsPhieuNhap.Name = "tsPhieuNhap";
-            this.tsPhieuNhap.Size = new System.Drawing.Size(79, 20);
-            this.tsPhieuNhap.Text = "&Phiếu nhập";
-            // 
             // tsThemHoaDon
             // 
             this.tsThemHoaDon.Name = "tsThemHoaDon";
             this.tsThemHoaDon.Size = new System.Drawing.Size(96, 20);
             this.tsThemHoaDon.Text = "&Thêm hóa đơn";
             // 
-            // tsTroGiup
-            // 
-            this.tsTroGiup.Name = "tsTroGiup";
-            this.tsTroGiup.Size = new System.Drawing.Size(62, 20);
-            this.tsTroGiup.Text = "&Trợ giúp";
-            // 
-            // tabControl1
-            // 
-            this.tabControl1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.tabControl1.Location = new System.Drawing.Point(0, 24);
-            this.tabControl1.Name = "tabControl1";
-            this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(800, 27);
-            this.tabControl1.TabIndex = 1;
-            this.tabControl1.SelectedIndexChanged += new System.EventHandler(this.tabControl1_SelectedIndexChanged);
-            // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.menuStrip1);
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip1;
@@ -154,9 +126,6 @@
         private System.Windows.Forms.ToolStripMenuItem tsNhanVien;
         private System.Windows.Forms.ToolStripMenuItem tsHoaDon;
         private System.Windows.Forms.ToolStripMenuItem tsSach;
-        private System.Windows.Forms.ToolStripMenuItem tsPhieuNhap;
-        private System.Windows.Forms.ToolStripMenuItem tsTroGiup;
-        private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.ToolStripMenuItem tsThoat;
         private System.Windows.Forms.ToolStripMenuItem tsThemHoaDon;
     }

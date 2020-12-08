@@ -64,7 +64,7 @@
             // 
             // txtTenNv
             // 
-            this.txtTenNv.Location = new System.Drawing.Point(121, 107);
+            this.txtTenNv.Location = new System.Drawing.Point(137, 107);
             this.txtTenNv.Name = "txtTenNv";
             this.txtTenNv.Size = new System.Drawing.Size(157, 23);
             this.txtTenNv.TabIndex = 3;
@@ -102,7 +102,7 @@
             // dtpNgaySinh
             // 
             this.dtpNgaySinh.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtpNgaySinh.Location = new System.Drawing.Point(121, 145);
+            this.dtpNgaySinh.Location = new System.Drawing.Point(137, 145);
             this.dtpNgaySinh.Name = "dtpNgaySinh";
             this.dtpNgaySinh.Size = new System.Drawing.Size(100, 23);
             this.dtpNgaySinh.TabIndex = 4;
@@ -111,7 +111,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label5.Location = new System.Drawing.Point(387, 72);
+            this.label5.Location = new System.Drawing.Point(376, 72);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(54, 19);
             this.label5.TabIndex = 1;
@@ -121,7 +121,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label6.Location = new System.Drawing.Point(387, 150);
+            this.label6.Location = new System.Drawing.Point(376, 150);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(52, 19);
             this.label6.TabIndex = 1;
@@ -131,7 +131,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label7.Location = new System.Drawing.Point(387, 111);
+            this.label7.Location = new System.Drawing.Point(376, 111);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(91, 19);
             this.label7.TabIndex = 1;
@@ -201,7 +201,7 @@
             // 
             // txtManv
             // 
-            this.txtManv.Location = new System.Drawing.Point(121, 72);
+            this.txtManv.Location = new System.Drawing.Point(137, 72);
             this.txtManv.Name = "txtManv";
             this.txtManv.Size = new System.Drawing.Size(157, 23);
             this.txtManv.TabIndex = 7;

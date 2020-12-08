@@ -39,7 +39,6 @@
             this.label6 = new System.Windows.Forms.Label();
             this.dtpNgayBan = new System.Windows.Forms.DateTimePicker();
             this.btnThem = new System.Windows.Forms.Button();
-            this.btnXoa = new System.Windows.Forms.Button();
             this.dgvListBill = new System.Windows.Forms.DataGridView();
             this.txtManv = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvListBill)).BeginInit();
@@ -139,23 +138,13 @@
             // 
             // btnThem
             // 
-            this.btnThem.Location = new System.Drawing.Point(372, 149);
+            this.btnThem.Location = new System.Drawing.Point(464, 150);
             this.btnThem.Name = "btnThem";
             this.btnThem.Size = new System.Drawing.Size(84, 35);
             this.btnThem.TabIndex = 5;
             this.btnThem.Text = "Thêm";
             this.btnThem.UseVisualStyleBackColor = true;
             this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
-            // 
-            // btnXoa
-            // 
-            this.btnXoa.Location = new System.Drawing.Point(489, 150);
-            this.btnXoa.Name = "btnXoa";
-            this.btnXoa.Size = new System.Drawing.Size(85, 34);
-            this.btnXoa.TabIndex = 6;
-            this.btnXoa.Text = "Xóa";
-            this.btnXoa.UseVisualStyleBackColor = true;
-            this.btnXoa.Click += new System.EventHandler(this.btnXoa_Click);
             // 
             // dgvListBill
             // 
@@ -182,7 +171,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(669, 450);
             this.Controls.Add(this.txtManv);
-            this.Controls.Add(this.btnXoa);
             this.Controls.Add(this.btnThem);
             this.Controls.Add(this.dtpNgayBan);
             this.Controls.Add(this.label6);
@@ -217,7 +205,6 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.DateTimePicker dtpNgayBan;
         private System.Windows.Forms.Button btnThem;
-        private System.Windows.Forms.Button btnXoa;
         private System.Windows.Forms.DataGridView dgvListBill;
         private System.Windows.Forms.TextBox txtManv;
     }

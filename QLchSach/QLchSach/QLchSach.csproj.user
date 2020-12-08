@@ -10,12 +10,6 @@
     <Compile Update="Views\frmEmpoy.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Views\frmFind.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="Views\frmImport.cs">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Update="Views\frmListBill.cs">
       <SubType>Form</SubType>
     </Compile>

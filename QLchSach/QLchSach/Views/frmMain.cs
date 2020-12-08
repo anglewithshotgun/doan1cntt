@@ -19,12 +19,10 @@ namespace QLchSach
 
         private void frmMain_Load(object sender, EventArgs e)
         {
-            tsFile.Click += TsFile_Click;
             tsThoat.Click += TsThoat_Click;
             tsThanhVien.Click += TsKhachHang_Click;
             tsNhanVien.Click += TsNhanVien_Click;
             tsSach.Click += TsSach_Click;
-            tsPhieuNhap.Click += TsPhieuNhap_Click;
             tsTroGiup.Click += TsTroGiup_Click;
             tsHoaDon.Click += TsHoaDon_Click;
             tsThemHoaDon.Click += TsThemHoaDon_Click;
@@ -55,12 +53,6 @@ namespace QLchSach
         private void TsTroGiup_Click(object sender, EventArgs e)
         {
             
-        }
-
-        private void TsPhieuNhap_Click(object sender, EventArgs e)
-        {
-            frmImport formImport = new frmImport();
-            formImport.ShowDialog();
         }
 
         private void TsSach_Click(object sender, EventArgs e)
@@ -105,12 +97,6 @@ namespace QLchSach
         {
             Application.Exit();
         }
-
-        private void TsFile_Click(object sender, EventArgs e)
-        {
-            
-        }
-
         private void frmMain_MdiChildActivate(object sender, EventArgs e)
         {
             //if (this.ActiveMdiChild == null)
