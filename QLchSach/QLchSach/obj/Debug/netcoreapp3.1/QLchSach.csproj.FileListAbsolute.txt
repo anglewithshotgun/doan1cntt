@@ -1,0 +1,160 @@
+H:\Refferences\Đồ án CNTT\QLchSach\QLchSach\bin\Debug\netcoreapp3.1\QLchSach.exe
+H:\Refferences\Đồ án CNTT\QLchSach\QLchSach\bin\Debug\netcoreapp3.1\QLchSach.deps.json
+H:\Refferences\Đồ án CNTT\QLchSach\QLchSach\bin\Debug\netcoreapp3.1\QLchSach.runtimeconfig.json
+H:\Refferences\Đồ án CNTT\QLchSach\QLchSach\bin\Debug\netcoreapp3.1\QLchSach.runtimeconfig.dev.json
+H:\Refferences\Đồ án CNTT\QLchSach\QLchSach\bin\Debug\netcoreapp3.1\QLchSach.dll
+H:\Refferences\Đồ án CNTT\QLchSach\QLchSach\bin\Debug\netcoreapp3.1\QLchSach.pdb
+H:\Refferences\Đồ án CNTT\QLchSach\QLchSach\obj\Debug\netcoreapp3.1\QLchSach.csprojAssemblyReference.cache
+H:\Refferences\Đồ án CNTT\QLchSach\QLchSach\obj\Debug\netcoreapp3.1\QLchSach.csproj.GenerateResource.cache
+H:\Refferences\Đồ án CNTT\QLchSach\QLchSach\obj\Debug\netcoreapp3.1\QLchSach.AssemblyInfoInputs.cache
+H:\Refferences\Đồ án CNTT\QLchSach\QLchSach\obj\Debug\netcoreapp3.1\QLchSach.AssemblyInfo.cs
+H:\Refferences\Đồ án CNTT\QLchSach\QLchSach\obj\Debug\netcoreapp3.1\QLchSach.csproj.CoreCompileInputs.cache
+H:\Refferences\Đồ án CNTT\QLchSach\QLchSach\obj\Debug\netcoreapp3.1\QLchSach.dll
+H:\Refferences\Đồ án CNTT\QLchSach\QLchSach\obj\Debug\netcoreapp3.1\QLchSach.pdb
+H:\Refferences\Đồ án CNTT\QLchSach\QLchSach\obj\Debug\netcoreapp3.1\QLchSach.genruntimeconfig.cache
+H:\Refferences\Đồ án CNTT\QLchSach\QLchSach\obj\Debug\netcoreapp3.1\QLchSach.frmMain.resources
+H:\Refferences\Đồ án CNTT\QLchSach\QLchSach\obj\Debug\netcoreapp3.1\QLchSach.frmLogin.resources
+H:\Refferences\Đồ án CNTT\QLchSach\QLchSach\obj\Debug\netcoreapp3.1\QLchSach.Properties.Resources.resources
+H:\Refferences\Đồ án CNTT\QLchSach\QLchSach\obj\Debug\netcoreapp3.1\QLchSach.frmBill.resources
+H:\Refferences\Đồ án CNTT\QLchSach\QLchSach\obj\Debug\netcoreapp3.1\QLchSach.frmBook.resources
+H:\Refferences\Đồ án CNTT\QLchSach\QLchSach\obj\Debug\netcoreapp3.1\QLchSach.frmEmpoy.resources
+H:\Refferences\Đồ án CNTT\QLchSach\QLchSach\obj\Debug\netcoreapp3.1\QLchSach.frmFind.resources
+H:\Refferences\Đồ án CNTT\QLchSach\QLchSach\obj\Debug\netcoreapp3.1\QLchSach.frmImport.resources
+H:\Refferences\Đồ án CNTT\QLchSach\QLchSach\obj\Debug\netcoreapp3.1\QLchSach.frmListBill.resources
+H:\Refferences\Đồ án CNTT\QLchSach\QLchSach\obj\Debug\netcoreapp3.1\QLchSach.frmMember.resources
+D:\CNTT Project\QlsachClone\QLchSach\QLchSach\obj\Debug\netcoreapp3.1\QLchSach.csprojAssemblyReference.cache
+D:\CNTT Project\QlsachClone\QLchSach\QLchSach\obj\Debug\netcoreapp3.1\QLchSach.Properties.Resources.resources
+D:\CNTT Project\QlsachClone\QLchSach\QLchSach\obj\Debug\netcoreapp3.1\QLchSach.frmBill.resources
+D:\CNTT Project\QlsachClone\QLchSach\QLchSach\obj\Debug\netcoreapp3.1\QLchSach.frmBook.resources
+D:\CNTT Project\QlsachClone\QLchSach\QLchSach\obj\Debug\netcoreapp3.1\QLchSach.frmEmpoy.resources
+D:\CNTT Project\QlsachClone\QLchSach\QLchSach\obj\Debug\netcoreapp3.1\QLchSach.frmFind.resources
+D:\CNTT Project\QlsachClone\QLchSach\QLchSach\obj\Debug\netcoreapp3.1\QLchSach.frmImport.resources
+D:\CNTT Project\QlsachClone\QLchSach\QLchSach\obj\Debug\netcoreapp3.1\QLchSach.frmListBill.resources
+D:\CNTT Project\QlsachClone\QLchSach\QLchSach\obj\Debug\netcoreapp3.1\QLchSach.frmLogin.resources
+D:\CNTT Project\QlsachClone\QLchSach\QLchSach\obj\Debug\netcoreapp3.1\QLchSach.frmMain.resources
+D:\CNTT Project\QlsachClone\QLchSach\QLchSach\obj\Debug\netcoreapp3.1\QLchSach.frmMember.resources
+D:\CNTT Project\QlsachClone\QLchSach\QLchSach\obj\Debug\netcoreapp3.1\QLchSach.csproj.GenerateResource.cache
+D:\CNTT Project\QlsachClone\QLchSach\QLchSach\obj\Debug\netcoreapp3.1\QLchSach.AssemblyInfoInputs.cache
+D:\CNTT Project\QlsachClone\QLchSach\QLchSach\obj\Debug\netcoreapp3.1\QLchSach.AssemblyInfo.cs
+D:\CNTT Project\QlsachClone\QLchSach\QLchSach\obj\Debug\netcoreapp3.1\QLchSach.csproj.CoreCompileInputs.cache
+D:\CNTT Project\QlsachClone\QLchSach\QLchSach\obj\Debug\netcoreapp3.1\QLchSach.dll
+D:\CNTT Project\QlsachClone\QLchSach\QLchSach\obj\Debug\netcoreapp3.1\QLchSach.pdb
+D:\CNTT Project\QlsachClone\QLchSach\QLchSach\bin\Debug\netcoreapp3.1\QLchSach.exe
+D:\CNTT Project\QlsachClone\QLchSach\QLchSach\bin\Debug\netcoreapp3.1\QLchSach.deps.json
+D:\CNTT Project\QlsachClone\QLchSach\QLchSach\bin\Debug\netcoreapp3.1\QLchSach.runtimeconfig.json
+D:\CNTT Project\QlsachClone\QLchSach\QLchSach\bin\Debug\netcoreapp3.1\QLchSach.runtimeconfig.dev.json
+D:\CNTT Project\QlsachClone\QLchSach\QLchSach\bin\Debug\netcoreapp3.1\QLchSach.dll
+D:\CNTT Project\QlsachClone\QLchSach\QLchSach\bin\Debug\netcoreapp3.1\QLchSach.pdb
+D:\CNTT Project\QlsachClone\QLchSach\QLchSach\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+D:\CNTT Project\QlsachClone\QLchSach\QLchSach\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+D:\CNTT Project\QlsachClone\QLchSach\QLchSach\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\CNTT Project\QlsachClone\QLchSach\QLchSach\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+D:\CNTT Project\QlsachClone\QLchSach\QLchSach\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\CNTT Project\QlsachClone\QLchSach\QLchSach\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+D:\CNTT Project\QlsachClone\QLchSach\QLchSach\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+D:\CNTT Project\QlsachClone\QLchSach\QLchSach\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\CNTT Project\QlsachClone\QLchSach\QLchSach\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+D:\CNTT Project\QlsachClone\QLchSach\QLchSach\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+D:\CNTT Project\QlsachClone\QLchSach\QLchSach\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+D:\CNTT Project\QlsachClone\QLchSach\QLchSach\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\CNTT Project\QlsachClone\QLchSach\QLchSach\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+D:\CNTT Project\QlsachClone\QLchSach\QLchSach\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+D:\CNTT Project\QlsachClone\QLchSach\QLchSach\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\CNTT Project\QlsachClone\QLchSach\QLchSach\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+D:\CNTT Project\QlsachClone\QLchSach\QLchSach\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+D:\CNTT Project\QlsachClone\QLchSach\QLchSach\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Configuration.dll
+D:\CNTT Project\QlsachClone\QLchSach\QLchSach\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Console.dll
+D:\CNTT Project\QlsachClone\QLchSach\QLchSach\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+D:\CNTT Project\QlsachClone\QLchSach\QLchSach\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+D:\CNTT Project\QlsachClone\QLchSach\QLchSach\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\CNTT Project\QlsachClone\QLchSach\QLchSach\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+D:\CNTT Project\QlsachClone\QLchSach\QLchSach\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\CNTT Project\QlsachClone\QLchSach\QLchSach\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+D:\CNTT Project\QlsachClone\QLchSach\QLchSach\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+D:\CNTT Project\QlsachClone\QLchSach\QLchSach\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\CNTT Project\QlsachClone\QLchSach\QLchSach\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+D:\CNTT Project\QlsachClone\QLchSach\QLchSach\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\CNTT Project\QlsachClone\QLchSach\QLchSach\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+D:\CNTT Project\QlsachClone\QLchSach\QLchSach\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+D:\CNTT Project\QlsachClone\QLchSach\QLchSach\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+D:\CNTT Project\QlsachClone\QLchSach\QLchSach\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+D:\CNTT Project\QlsachClone\QLchSach\QLchSach\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+D:\CNTT Project\QlsachClone\QLchSach\QLchSach\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\CNTT Project\QlsachClone\QLchSach\QLchSach\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\CNTT Project\QlsachClone\QLchSach\QLchSach\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\CNTT Project\QlsachClone\QLchSach\QLchSach\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\CNTT Project\QlsachClone\QLchSach\QLchSach\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\CNTT Project\QlsachClone\QLchSach\QLchSach\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\CNTT Project\QlsachClone\QLchSach\QLchSach\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\CNTT Project\QlsachClone\QLchSach\QLchSach\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\CNTT Project\QlsachClone\QLchSach\QLchSach\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\CNTT Project\QlsachClone\QLchSach\QLchSach\obj\Debug\netcoreapp3.1\QLchSach.csproj.CopyComplete
+D:\CNTT Project\QlsachClone\QLchSach\QLchSach\obj\Debug\netcoreapp3.1\QLchSach.genruntimeconfig.cache
+D:\Refferences\This term\CNTT Project\QlsachClone\QLchSach\QLchSach\bin\Debug\netcoreapp3.1\QLchSach.exe
+D:\Refferences\This term\CNTT Project\QlsachClone\QLchSach\QLchSach\bin\Debug\netcoreapp3.1\QLchSach.deps.json
+D:\Refferences\This term\CNTT Project\QlsachClone\QLchSach\QLchSach\bin\Debug\netcoreapp3.1\QLchSach.runtimeconfig.json
+D:\Refferences\This term\CNTT Project\QlsachClone\QLchSach\QLchSach\bin\Debug\netcoreapp3.1\QLchSach.runtimeconfig.dev.json
+D:\Refferences\This term\CNTT Project\QlsachClone\QLchSach\QLchSach\bin\Debug\netcoreapp3.1\QLchSach.dll
+D:\Refferences\This term\CNTT Project\QlsachClone\QLchSach\QLchSach\bin\Debug\netcoreapp3.1\QLchSach.pdb
+D:\Refferences\This term\CNTT Project\QlsachClone\QLchSach\QLchSach\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Refferences\This term\CNTT Project\QlsachClone\QLchSach\QLchSach\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+D:\Refferences\This term\CNTT Project\QlsachClone\QLchSach\QLchSach\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Refferences\This term\CNTT Project\QlsachClone\QLchSach\QLchSach\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+D:\Refferences\This term\CNTT Project\QlsachClone\QLchSach\QLchSach\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Refferences\This term\CNTT Project\QlsachClone\QLchSach\QLchSach\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+D:\Refferences\This term\CNTT Project\QlsachClone\QLchSach\QLchSach\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Refferences\This term\CNTT Project\QlsachClone\QLchSach\QLchSach\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Refferences\This term\CNTT Project\QlsachClone\QLchSach\QLchSach\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Refferences\This term\CNTT Project\QlsachClone\QLchSach\QLchSach\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+D:\Refferences\This term\CNTT Project\QlsachClone\QLchSach\QLchSach\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+D:\Refferences\This term\CNTT Project\QlsachClone\QLchSach\QLchSach\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Refferences\This term\CNTT Project\QlsachClone\QLchSach\QLchSach\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+D:\Refferences\This term\CNTT Project\QlsachClone\QLchSach\QLchSach\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+D:\Refferences\This term\CNTT Project\QlsachClone\QLchSach\QLchSach\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Refferences\This term\CNTT Project\QlsachClone\QLchSach\QLchSach\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+D:\Refferences\This term\CNTT Project\QlsachClone\QLchSach\QLchSach\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Refferences\This term\CNTT Project\QlsachClone\QLchSach\QLchSach\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Configuration.dll
+D:\Refferences\This term\CNTT Project\QlsachClone\QLchSach\QLchSach\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Console.dll
+D:\Refferences\This term\CNTT Project\QlsachClone\QLchSach\QLchSach\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+D:\Refferences\This term\CNTT Project\QlsachClone\QLchSach\QLchSach\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+D:\Refferences\This term\CNTT Project\QlsachClone\QLchSach\QLchSach\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\Refferences\This term\CNTT Project\QlsachClone\QLchSach\QLchSach\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+D:\Refferences\This term\CNTT Project\QlsachClone\QLchSach\QLchSach\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Refferences\This term\CNTT Project\QlsachClone\QLchSach\QLchSach\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+D:\Refferences\This term\CNTT Project\QlsachClone\QLchSach\QLchSach\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+D:\Refferences\This term\CNTT Project\QlsachClone\QLchSach\QLchSach\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Refferences\This term\CNTT Project\QlsachClone\QLchSach\QLchSach\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+D:\Refferences\This term\CNTT Project\QlsachClone\QLchSach\QLchSach\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\Refferences\This term\CNTT Project\QlsachClone\QLchSach\QLchSach\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+D:\Refferences\This term\CNTT Project\QlsachClone\QLchSach\QLchSach\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+D:\Refferences\This term\CNTT Project\QlsachClone\QLchSach\QLchSach\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+D:\Refferences\This term\CNTT Project\QlsachClone\QLchSach\QLchSach\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+D:\Refferences\This term\CNTT Project\QlsachClone\QLchSach\QLchSach\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+D:\Refferences\This term\CNTT Project\QlsachClone\QLchSach\QLchSach\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\Refferences\This term\CNTT Project\QlsachClone\QLchSach\QLchSach\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\Refferences\This term\CNTT Project\QlsachClone\QLchSach\QLchSach\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\Refferences\This term\CNTT Project\QlsachClone\QLchSach\QLchSach\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\Refferences\This term\CNTT Project\QlsachClone\QLchSach\QLchSach\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\Refferences\This term\CNTT Project\QlsachClone\QLchSach\QLchSach\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Refferences\This term\CNTT Project\QlsachClone\QLchSach\QLchSach\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Refferences\This term\CNTT Project\QlsachClone\QLchSach\QLchSach\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\Refferences\This term\CNTT Project\QlsachClone\QLchSach\QLchSach\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\Refferences\This term\CNTT Project\QlsachClone\QLchSach\QLchSach\obj\Debug\netcoreapp3.1\QLchSach.csprojAssemblyReference.cache
+D:\Refferences\This term\CNTT Project\QlsachClone\QLchSach\QLchSach\obj\Debug\netcoreapp3.1\QLchSach.Properties.Resources.resources
+D:\Refferences\This term\CNTT Project\QlsachClone\QLchSach\QLchSach\obj\Debug\netcoreapp3.1\QLchSach.frmBill.resources
+D:\Refferences\This term\CNTT Project\QlsachClone\QLchSach\QLchSach\obj\Debug\netcoreapp3.1\QLchSach.frmBook.resources
+D:\Refferences\This term\CNTT Project\QlsachClone\QLchSach\QLchSach\obj\Debug\netcoreapp3.1\QLchSach.frmEmpoy.resources
+D:\Refferences\This term\CNTT Project\QlsachClone\QLchSach\QLchSach\obj\Debug\netcoreapp3.1\QLchSach.frmFind.resources
+D:\Refferences\This term\CNTT Project\QlsachClone\QLchSach\QLchSach\obj\Debug\netcoreapp3.1\QLchSach.frmImport.resources
+D:\Refferences\This term\CNTT Project\QlsachClone\QLchSach\QLchSach\obj\Debug\netcoreapp3.1\QLchSach.frmListBill.resources
+D:\Refferences\This term\CNTT Project\QlsachClone\QLchSach\QLchSach\obj\Debug\netcoreapp3.1\QLchSach.frmLogin.resources
+D:\Refferences\This term\CNTT Project\QlsachClone\QLchSach\QLchSach\obj\Debug\netcoreapp3.1\QLchSach.frmMain.resources
+D:\Refferences\This term\CNTT Project\QlsachClone\QLchSach\QLchSach\obj\Debug\netcoreapp3.1\QLchSach.frmMember.resources
+D:\Refferences\This term\CNTT Project\QlsachClone\QLchSach\QLchSach\obj\Debug\netcoreapp3.1\QLchSach.csproj.GenerateResource.cache
+D:\Refferences\This term\CNTT Project\QlsachClone\QLchSach\QLchSach\obj\Debug\netcoreapp3.1\QLchSach.AssemblyInfoInputs.cache
+D:\Refferences\This term\CNTT Project\QlsachClone\QLchSach\QLchSach\obj\Debug\netcoreapp3.1\QLchSach.AssemblyInfo.cs
+D:\Refferences\This term\CNTT Project\QlsachClone\QLchSach\QLchSach\obj\Debug\netcoreapp3.1\QLchSach.csproj.CoreCompileInputs.cache
+D:\Refferences\This term\CNTT Project\QlsachClone\QLchSach\QLchSach\obj\Debug\netcoreapp3.1\QLchSach.csproj.CopyComplete
+D:\Refferences\This term\CNTT Project\QlsachClone\QLchSach\QLchSach\obj\Debug\netcoreapp3.1\QLchSach.dll
+D:\Refferences\This term\CNTT Project\QlsachClone\QLchSach\QLchSach\obj\Debug\netcoreapp3.1\QLchSach.pdb
+D:\Refferences\This term\CNTT Project\QlsachClone\QLchSach\QLchSach\obj\Debug\netcoreapp3.1\QLchSach.genruntimeconfig.cache

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="Views\frmBill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Views\frmBook.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Views\frmEmpoy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Views\frmFind.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Views\frmImport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Views\frmListBill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Views\frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Views\frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Views\frmMember.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>
