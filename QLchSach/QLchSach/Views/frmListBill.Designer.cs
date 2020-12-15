@@ -156,6 +156,7 @@
             this.dgvListBill.TabIndex = 1;
             this.dgvListBill.Text = "dataGridView1";
             this.dgvListBill.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvListBill_CellClick);
+            this.dgvListBill.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvListBill_CellDoubleClick);
             // 
             // txtManv
             // 

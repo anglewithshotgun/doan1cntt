@@ -23,7 +23,6 @@ namespace QLchSach
             tsThanhVien.Click += TsKhachHang_Click;
             tsNhanVien.Click += TsNhanVien_Click;
             tsSach.Click += TsSach_Click;
-            tsTroGiup.Click += TsTroGiup_Click;
             tsHoaDon.Click += TsHoaDon_Click;
             tsThemHoaDon.Click += TsThemHoaDon_Click;
         }
@@ -49,12 +48,6 @@ namespace QLchSach
             frmListBill formLBill = new frmListBill();
             formLBill.ShowDialog();
         }
-
-        private void TsTroGiup_Click(object sender, EventArgs e)
-        {
-            
-        }
-
         private void TsSach_Click(object sender, EventArgs e)
         {
             //if (this.formBook is null || this.formBook.IsDisposed)

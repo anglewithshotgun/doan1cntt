@@ -35,7 +35,23 @@ namespace QLchSach
 
         private void frmBill_Load(object sender, EventArgs e)
         {
-            loadcbb();
+            if (cbbTimKiemCthd.Text.Trim() != "")
+            {
+                this.dgv1.Rows.Clear();
+                loadThongTinChung();
+                loadTtBanHang();
+                var context = new Dtb_NhaSachContext();
+                this.cbbTenSach.DataSource = context.Saches.Select(s => s.TenSach.Trim()).ToList();
+                this.cbbTenSach.Text = null;
+                string cbb = this.cbbTimKiemCthd.Text.Trim();
+                this.cbbTimKiemCthd.DataSource = context.Hoadons.Select(s => s.SoHd).ToList();
+                this.cbbTimKiemCthd.Text = cbb;
+                cbb = this.cbbTenNv.Text.Trim();
+                this.cbbTenNv.DataSource = context.Nhanviens.Select(s => s.TenNv.Trim()).ToList();
+                this.cbbTenNv.Text = cbb;
+                this.groupBox1.Enabled = true;
+            }
+            else loadcbb();
         }
         public void loadcbb()
         {

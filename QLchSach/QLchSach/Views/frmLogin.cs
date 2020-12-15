@@ -71,5 +71,29 @@ namespace QLchSach
             else this.errorProvider1.SetError(this.txtMatKhau, null);
             return 0;
         }
+
+        private void txtTaiKhoan_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                if (errorP() == 1)
+                {
+                    return;
+                }
+                login();
+            }
+        }
+
+        private void txtMatKhau_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                if (errorP() == 1)
+                {
+                    return;
+                }
+                login();
+            }
+        }
     }
 }

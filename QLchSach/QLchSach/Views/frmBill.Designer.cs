@@ -530,7 +530,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button btnTimKiemCthd;
-        private System.Windows.Forms.ComboBox cbbTimKiemCthd;
+        public System.Windows.Forms.ComboBox cbbTimKiemCthd;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.SplitContainer splitContainer1;
         private System.Windows.Forms.GroupBox groupBox2;

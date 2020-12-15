@@ -48,7 +48,7 @@ namespace QLchSach
             this.dgvListBill.Columns["NgayBan"].HeaderText = "Ngày bán";
             this.dgvListBill.Columns["TenKh"].HeaderText = "Tên khách hàng";
             this.dgvListBill.Columns["MaTv"].HeaderText = "Mã thành viên";  
-            this.dgvListBill.Columns["ThanhTien"].HeaderText = "Thành tiền";
+            this.dgvListBill.Columns["TongTien"].HeaderText = "Tổng tiền";
         }
 
         private void dgvListBill_CellClick(object sender, DataGridViewCellEventArgs e)
@@ -67,6 +67,12 @@ namespace QLchSach
             this.txtKhachHang.Text = null;
             this.txtManv.Text = null;
             this.dtpNgayBan.Value = DateTime.Now;
+        }
+        private void dgvListBill_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
+        {
+            frmBill newform = new frmBill();
+            newform.cbbTimKiemCthd.Text = this.dgvListBill.CurrentRow.Cells[0].Value.ToString().Trim();
+            newform.ShowDialog();
         }
     }
 }
