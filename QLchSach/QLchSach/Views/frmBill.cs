@@ -23,6 +23,7 @@ namespace QLchSach
         {
             refreshGroupB1();
             refreshGroupB2();
+            this.dgv1.Rows.Clear();
             this.btnHuy.Enabled = true;
             this.btnLuu.Enabled = true;
             this.btnThemSach.Enabled = true;
@@ -32,7 +33,6 @@ namespace QLchSach
             this.panel1.Enabled = false;
             this.btnThemHoaDon.Enabled = false;          
         }
-
         private void frmBill_Load(object sender, EventArgs e)
         {
             if (cbbTimKiemCthd.Text.Trim() != "")
@@ -65,6 +65,10 @@ namespace QLchSach
         }
         private void btnThemSach_Click(object sender, EventArgs e)
         {
+            if (kiemtra())
+            {
+                return;
+            }
             trungSach();
             refreshGroupB1();
             tinhTien();
@@ -394,6 +398,18 @@ namespace QLchSach
                 dgv1.Rows.Add(row);
                 stt++;
             }
+        }
+        public bool kiemtra()
+        {
+            var context = new Dtb_NhaSachContext();
+            var soLuong = context.Saches.Where(s => s.TenSach.Trim() == this.cbbTenSach.Text.Trim())
+                                .Select(s => s.SoLuong).FirstOrDefault();
+            if (int.Parse(this.txtSoLuong.Text.Trim()) - soLuong > 0)
+            {
+                MessageBox.Show("Không đủ số lượng sách");
+                return true;
+            }
+            return false;
         }
     }
 }

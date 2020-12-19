@@ -31,7 +31,8 @@ namespace QLchSach.Models
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer("Server=DESKTOP-CBH7IMS;Database=Dtb_NhaSach;Trusted_Connection=True;");
+#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
+                optionsBuilder.UseSqlServer("Server=TQ\\TQDEV;Database=Dtb_NhaSach;Trusted_Connection=True;");
             }
         }
 
@@ -152,7 +153,7 @@ namespace QLchSach.Models
 
                 entity.Property(e => e.MaTl)
                     .IsRequired()
-                    .HasMaxLength(10)
+                    .HasMaxLength(30)
                     .HasColumnName("MaTL")
                     .IsFixedLength(true);
 
@@ -171,6 +172,12 @@ namespace QLchSach.Models
                     .HasForeignKey(d => d.MaTg)
                     .OnDelete(DeleteBehavior.ClientSetNull)
                     .HasConstraintName("FK_SACH_TACGIA");
+
+                entity.HasOne(d => d.MaTlNavigation)
+                    .WithMany(p => p.Saches)
+                    .HasForeignKey(d => d.MaTl)
+                    .OnDelete(DeleteBehavior.ClientSetNull)
+                    .HasConstraintName("FK_SACH_THELOAI");
             });
 
             modelBuilder.Entity<Tacgium>(entity =>

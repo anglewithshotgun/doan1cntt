@@ -18,5 +18,6 @@ namespace QLchSach.Models
 
         public virtual Nxb MaNxbNavigation { get; set; }
         public virtual Tacgium MaTgNavigation { get; set; }
+        public virtual Theloai MaTlNavigation { get; set; }
     }
 }

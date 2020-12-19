@@ -3,12 +3,11 @@
     "tfm": "net5.0",
     "framework": {
       "name": "Microsoft.WindowsDesktop.App",
-      "version": "5.0.0"
+      "version": "5.0.0-rc.2.20475.6"
     },
     "additionalProbingPaths": [
-      "C:\\Users\\DELL\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\DELL\\.nuget\\packages",
-      "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      "C:\\Users\\QUYNH\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\QUYNH\\.nuget\\packages"
     ],
     "configProperties": {
       "Microsoft.NETCore.DotNetHostPolicy.SetAppPaths": true

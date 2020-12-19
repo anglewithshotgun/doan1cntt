@@ -154,19 +154,66 @@ namespace QLchSach
             {
                 return;
             }
-            #region nếu trùng khóa chính
+            // nếu trùng khóa chính
             var context = new Dtb_NhaSachContext();
             var cSach = context.Saches
                     .Where(s => s.MaSach.Trim() == this.cbbMs.Text.Trim())
                     .Select(s => s.MaSach).ToList();
             if (cSach.Count > 0)
             {
-                this.errorProvider1.SetError(this.cbbMs, "Mã sách không được trùng");
-                return;
+                DialogResult hoi =  MessageBox.Show("Sách đã có trong dữ liệu cửa hàng. Bạn có muốn cộng thêm vào không?", "Chú ý"
+                    ,MessageBoxButtons.YesNo,MessageBoxIcon.Warning);
+                if (hoi == DialogResult.Yes)
+                {
+                    try
+                    {
+                        var edit = new Sach()
+                        {
+                            MaSach = this.dgvBook.CurrentRow.Cells[1].Value.ToString().Trim(),
+                        };
+                        var tg = context.Tacgia
+                                    .Where(t => t.TenTg == this.cbbMtg.Text.Trim())
+                                    .Select(t => new
+                                    {
+                                        t.MaTg,
+                                    }).FirstOrDefault().MaTg.Trim();
+                        var nxb = context.Nxbs
+                                    .Where(n => n.TenNxb == this.cbbnxb.Text.Trim())
+                                    .Select(n => new
+                                    {
+                                        n.MaNxb,
+                                    }).FirstOrDefault().MaNxb.Trim();
+                        var tl = context.Theloais
+                                .Where(t => t.TenTl == this.cbbMtl.Text.Trim())
+                                .Select(t => new
+                                {
+                                    t.MaTl,
+                                }).FirstOrDefault().MaTl.Trim();
+                        var sl = context.Saches.Where(s => s.MaSach.Trim() == this.cbbMs.Text.Trim())
+                                                .Select(s => s.SoLuong).FirstOrDefault();
+                        edit.Stt = int.Parse(this.dgvBook.CurrentRow.Cells[0].Value.ToString().Trim());
+                        edit.TenSach = this.txtTenSach.Text.Trim();
+                        edit.SoLuong = int.Parse(this.txtSoLuong.Text.Trim()) + sl;
+                        edit.MaTl = tl;
+                        edit.MaTg = tg;
+                        edit.MaNxb = nxb;
+                        edit.GiaBan = int.Parse(this.txtGiaBan.Text.Trim());
+                        context.Update<Sach>(edit);
+                        context.SaveChanges();
+                        refreshControl();
+                        loadDgvBook();
+                        MessageBox.Show("Thêm thành công!!!!");
+                    }
+                    catch
+                    {
+                        MessageBox.Show("Đã xảy ra lỗi. Vui lòng thử lại!");
+                        return;
+                    }
+                    return;
+                }
+                else return;
             }
-            else this.errorProvider1.SetError(this.cbbMs, null);
 
-            #endregion
             try
             {
                     var tg = context.Tacgia
